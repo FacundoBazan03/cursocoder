@@ -99,7 +99,6 @@ h4{
 }
 header{
     grid-area: header;
-    grid-area: titulofcb;
 }
 .navindex{
     position: relative;
