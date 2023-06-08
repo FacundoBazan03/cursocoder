@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "SansOpen";
+    src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+aside{
+    grid-area: aside;
+    position: relative;
+    bottom: -58px;
+    left: 50%;
+}

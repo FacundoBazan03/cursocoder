@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "SansOpen";
+    src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+.footerindex{
+    position: relative;
+    grid-area: footer;
+    & .row{
+        display: flex;
+        justify-content: center;
+    }
+    & h4{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+    & ul{
+        width: 100%;
+        list-style-type: none;
+        text-align: center;
+    }
+    & li{
+        display: inline-flex;
+    }
+    & a{
+        margin: -10px 0px;
+        display: inline-flex;
+        text-decoration: none;
+        color: aliceblue;
+        padding: 14px 35px;
+        position: relative;
+        top: 2px;
+    }
+    & img{
+        position: relative;
+        width: 25px;
+        height: 25px;
+        border: 2px double lightblue;
+        left: -5px;
+    }
+    & a:hover{
+        background-color: lightblue;
+    }
+}

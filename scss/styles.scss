@@ -11,15 +11,11 @@
 @import "./aside";
 
 @import "./footer";
-*{
+.index{
     font-size: 96%;
     font-weight: 100;
     margin: 0;
     padding: 0;
-}
-@font-face {
-    font-family: "SansOpen";
-    src: url(../assets/fonts/OpenSans-Bold.ttf);
 }
 .index{
     font-family: "SansOpen";
@@ -35,102 +31,29 @@
                         "main section 0"
                         "footer aside aside";
 }
-header{
-    grid-area: header;
-    .h1{
-        color: aliceblue;
-        padding: 15px;
-        font-style: oblique;
-        animation:scale-up-bottom 0.4s; } @keyframes scale-up-bottom{0%{transform:scale(.5);transform-origin:center bottom}100%{transform:scale(1);transform-origin:center bottom}
-    }
+@font-face {
+    font-family: "SansOpen";
+    src: url(../fonts/OpenSans-Bold.ttf);
 }
-.navindex{
-    position: relative;
-    grid-area: nav;
-    margin: auto;
+body{
+    font-size: 96%;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
 }
-main{
-    grid-area: main;
-    margin-left: 15px;
-    .h2{
-        font-style: oblique;
-        color: aliceblue;
-        padding: 20px;
-    }
-    .parrafo{
-        font-size: 89%;
-        text-align: left;
-        color: aliceblue;
-        font-weight: bold;
-        position: relative;
-    }
+.argentina{
+    font-family: "exi";
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/221127164140-lionel-messi-inter-miami-rumors-spt-intl.jpg?c=original);
+    height: 100vh;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows:12% 44% 44%;
+    grid-template-areas:"tituloarg agasajando trivia"
+                        "recordsarg agasajando trivia"
+                        "video agasajando 0";
 }
-.sectionindex{
-    grid-area: section;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    .messiconcopas{        
-        width: 180px;
-        height: 240px;
-        object-fit: cover;
-        position: relative;
-        border: 2px double lightblue;
-        border-radius: 10%;
-        top: 300px;
-        animation:slide-bottom 0.4s linear both}@keyframes slide-bottom{0%{transform:translateY(0)}100%{transform:translateY(-300px)}
-    }
-    h3{
-        text-align: left;
-        color: white;
-        padding: 10px;
-        border-bottom: 2px solid lightblue;
-        font-size: 12px;
-     }
-}
-aside{
-    grid-area: aside;
-    position: relative;
-    bottom: -58px;
-    left: 50%;
-}
-.footerindex{
-    position: relative;
-    grid-area: footer;
-    & .row{
-        display: flex;
-        justify-content: center;
-    }
-    & h4{
-        display: flex;
-        justify-content: center;
-        background-color: black;
-    }
-    & ul{
-        width: 100%;
-        list-style-type: none;
-        text-align: center;
-    }
-    & li{
-        display: inline-flex;
-    }
-    & a{
-        margin: -10px 0px;
-        display: inline-flex;
-        text-decoration: none;
-        color: aliceblue;
-        padding: 14px 35px;
-        position: relative;
-        top: 2px;
-    }
-    & img{
-        position: relative;
-        width: 25px;
-        height: 25px;
-        border: 2px double lightblue;
-        left: -5px;
-    }
-    & a:hover{
-        background-color: lightblue;
-    }
+@font-face{
+    font-family: "exi";
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
 }

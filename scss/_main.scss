@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "SansOpen";
+    src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+main{
+    grid-area: main;
+    margin-left: 15px;
+    .h2{
+        font-style: oblique;
+        color: aliceblue;
+        padding: 20px;
+    }
+    .parrafo{
+        font-size: 89%;
+        text-align: left;
+        color: aliceblue;
+        font-weight: bold;
+        position: relative;
+    }
+}
