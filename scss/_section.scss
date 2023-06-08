@@ -1,7 +1,3 @@
-@font-face {
-    font-family: "SansOpen";
-    src: url(../assets/fonts/OpenSans-Bold.ttf);
-}
 .sectionindex{
     grid-area: section;
     margin-left: auto;
@@ -24,4 +20,9 @@
         border-bottom: 2px solid lightblue;
         font-size: 12px;
      }
+}
+.agasajando{
+    border-radius: 100%;
+    object-fit: cover;
+    grid-area: agasajando;
 }

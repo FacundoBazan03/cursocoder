@@ -1,7 +1,3 @@
-@font-face {
-    font-family: "SansOpen";
-    src: url(../assets/fonts/OpenSans-Bold.ttf);
-}
 .footerindex{
     position: relative;
     grid-area: footer;
@@ -41,4 +37,11 @@
     & a:hover{
         background-color: lightblue;
     }
+}
+.container footer{
+    max-width: 450px;
+    padding: auto; 
+    .p0{
+        grid-area: trivia;
+    }  
 }

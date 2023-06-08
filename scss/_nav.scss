@@ -1,9 +1,8 @@
-@font-face {
-    font-family: "SansOpen";
-    src: url(../assets/fonts/OpenSans-Bold.ttf);
-}
 .navindex{
     position: relative;
     grid-area: nav;
     margin: auto;
+}
+.video{
+    grid-area: video;
 }
