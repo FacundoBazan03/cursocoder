@@ -167,10 +167,6 @@ main .parrafo {
   margin-bottom: 75px;
 }
 
-@font-face {
-  font-family: "SansOpen";
-  src: url(../assets/fonts/OpenSans-Bold.ttf);
-}
 aside {
   grid-area: aside;
   position: relative;
