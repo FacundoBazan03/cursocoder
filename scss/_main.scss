@@ -19,7 +19,26 @@ main{
         color: white;
    }
    .recordsarg{
-    color: white;
-    grid-area: recordsarg;
+        color: white;
+        grid-area: recordsarg;
+    }
 }
+.barcelona{ 
+    .recordsfcb{
+        grid-area: recordsfcb;
+    }
+}
+.newells{
+    .recordsnob{
+        grid-area: recordsnob;
+    }
+}
+.psg{
+    .recordspsg{
+        grid-area: recordspsg;
+        color: white;
+    }
+    .textopsg{
+        font-size: 20px;
+    }
 }

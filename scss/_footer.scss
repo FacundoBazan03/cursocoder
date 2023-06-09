@@ -39,13 +39,27 @@
         background-color: lightblue;
     }
 }
-.container footer{
-    max-width: 450px;
-    padding: auto; 
+.argentina{ 
+    .container footer{
+        max-width: 450px;
+        padding: auto; 
+    }
     .p0{
         grid-area: trivia;
     }  
 }
-.escudofcb{
-    grid-area: escudo;
+.barcelona{ 
+    .escudofcb{
+        grid-area: escudo;
+    }
+}
+.newells{
+    .escudonob{
+        grid-area: escudo;
+    }
+}
+.psg{
+    .escudopsg{
+        grid-area: escudo;
+    }
 }

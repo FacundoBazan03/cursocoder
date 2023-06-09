@@ -3,6 +3,21 @@
     grid-area: nav;
     margin: auto;
 }
-.video{
-    grid-area: video;
+.argentina{ 
+    .video{
+        grid-area: video;
+    }
+}
+.newells{
+    .videonob{
+        margin: auto;
+        margin-bottom: 24px;
+    }
+}
+.psg{
+    .videopsg{
+        margin: auto;
+        margin-bottom: 24px;
+        grid-area: videopsg;
+    }
 }

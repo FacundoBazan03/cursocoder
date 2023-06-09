@@ -7,10 +7,28 @@ header{
         animation:scale-up-bottom 0.4s; } @keyframes scale-up-bottom{0%{transform:scale(.5);transform-origin:center bottom}100%{transform:scale(1);transform-origin:center bottom}
     }
 }
-.h1arg{
-    padding: 20px;
+.argentina{ 
+    .h1arg{
+        padding: 20px;
+    }
     .tituloarg{
         grid-area: tituloarg;
+        color: white;
+    }
+}
+.barcelona{ 
+    .titulofcb{
+        grid-area: titulofcb;
+    }    
+}
+.newells{ 
+    .titulonob{
+        grid-area: titulonob;
+    }
+}
+.psg{
+    .titulopsg{
+        grid-area: titulopsg;
         color: white;
     }
 }

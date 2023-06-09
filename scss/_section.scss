@@ -21,14 +21,41 @@
         font-size: 12px;
      }
 }
-.agasajando{
-    border-radius: 100%;
-    object-fit: cover;
-    grid-area: agasajando;
+.argentina{ 
+    .agasajando{
+        border-radius: 100%;
+        object-fit: cover;
+        grid-area: agasajando;
+    }
 }
-.fotocopasfcb{
-    grid-area: copas;
+.barcelona{ 
+    .fotocopasfcb{
+        grid-area: copas;
+    }
     .h3fcb{
         border-color: red;
+    }
+}
+.newells{
+    .fotocopasnob{
+        grid-area: copas;
+    }
+    .h3nob{
+        border-color: red;
+        display: none;
+    }
+    .messinob{
+        margin-bottom: 75px;
+    }
+}
+.psg{
+    .fotocopaspsg{
+        grid-area: copas;
+    }
+    .h3psg{
+        border-color: darkblue;
+    }
+    .messipsg{
+        margin-bottom: 75px;
     }
 }
