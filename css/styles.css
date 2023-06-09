@@ -99,6 +99,13 @@ main .parrafo {
   grid-area: agasajando;
 }
 
+.fotocopasfcb {
+  grid-area: copas;
+}
+.fotocopasfcb .h3fcb {
+  border-color: red;
+}
+
 @font-face {
   font-family: "SansOpen";
   src: url(../assets/fonts/OpenSans-Bold.ttf);
@@ -160,6 +167,10 @@ aside {
   grid-area: trivia;
 }
 
+.escudofcb {
+  grid-area: escudo;
+}
+
 body {
   font-size: 96%;
   font-weight: 100;
@@ -172,7 +183,6 @@ body {
   background-image: url(../assets/img/fondoDesktopMobile/leobyw.jpg);
   background-attachment: fixed;
   position: fixed;
-  height: 100%;
   width: 100%;
   height: 100vh;
   display: grid;
@@ -204,6 +214,7 @@ body {
   background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/03/15/15211195237795.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
   position: fixed;
   display: grid;
   grid-template-columns: 38% 10% 52%;
@@ -215,11 +226,24 @@ body {
   background-image: url(https://www.elindependiente.com.ar/elindependiente/1.0/img/483590673.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
   position: fixed;
   display: grid;
   grid-template-columns: 38% 10% 52%;
   grid-template-rows: 12% 44% 44%;
   grid-template-areas: "titulopsg copas escudo" "recordspsg copas escudo" "videopsg copas 0";
+}
+
+.newells {
+  background-image: url(https://estaticos-cdn.sport.es/clip/de77a7d7-5683-4293-ae10-15b0ad5f4906_alta-libre-aspect-ratio_default_0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 38% 10% 52%;
+  grid-template-rows: 12% 44% 44%;
+  grid-template-areas: "titulonob copas escudo" "recordsnob copas escudo" "videonob copas 0";
 }
 
 /*# sourceMappingURL=styles.css.map */
