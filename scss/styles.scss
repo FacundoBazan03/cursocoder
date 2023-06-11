@@ -1,15 +1,15 @@
-@import"./variables";
+@use 'aside';
 
-@import "./header";
+@use 'body';
 
-@import "./nav";
+@use 'footer';
 
-@import "./main";
+@use 'header';
 
-@import "./section";
+@use 'main';
 
-@import "./aside";
+@use 'nav';
 
-@import "./footer";
+@use 'section';
 
-@import "./body"
+@use 'variables';
