@@ -20,7 +20,7 @@ body{
 }
 @font-face {
     font-family: "SansOpen";
-    src: url(../fonts/OpenSans-Bold.ttf);
+    src: url(../assets/fonts/OpenSans-Bold.ttf);
 }
 .argentina{
     font-family: "exi";
@@ -36,9 +36,10 @@ body{
 }
 @font-face{
     font-family: "exi";
-    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+    src: url(../assets/fonts/OpenSans-ExtraBoldItalic.ttf);
 }
 .barcelona{
+    font-family: "exi";
     background-image:url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/03/15/15211195237795.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,6 +53,7 @@ body{
                         "videofcb copas 0";
 }
 .psg{
+    font-family: "exi";
     background-image: url(https://www.elindependiente.com.ar/elindependiente/1.0/img/483590673.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,6 +67,7 @@ body{
                         "videopsg copas 0";
 }
 .newells{
+    font-family: "exi";
     background-image: url(https://estaticos-cdn.sport.es/clip/de77a7d7-5683-4293-ae10-15b0ad5f4906_alta-libre-aspect-ratio_default_0.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,4 +79,25 @@ body{
     grid-template-areas:"titulonob copas escudo"
                         "recordsnob copas escudo"
                         "videonob copas 0";
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    
+}
+@media (min-width:481px) and (max-width: 596px){
+
+}
+@media (min-width: 597px) and (max-width: 768px){
+
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+    
+}
+@media (min-width: 1201px) and (max-width:1400px){
+    
+}
+@media (min-width: 1401px) and (max-width: 1919px){
+
 }
