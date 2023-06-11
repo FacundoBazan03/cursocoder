@@ -1,0 +1,79 @@
+body{
+    font-size: 96%;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+.index{
+    font-family: "SansOpen";
+    background-image: url(../assets/img/fondoDesktopMobile/leobyw.jpg);
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 100vh ;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 13% 79% 8%;
+    grid-template-areas:"header nav 0 "
+                        "main section 0"
+                        "footer aside aside";
+}
+@font-face {
+    font-family: "SansOpen";
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+.argentina{
+    font-family: "exi";
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/221127164140-lionel-messi-inter-miami-rumors-spt-intl.jpg?c=original);
+    height: 100vh;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows:12% 44% 44%;
+    grid-template-areas:"tituloarg agasajando trivia"
+                        "recordsarg agasajando trivia"
+                        "video agasajando 0";
+}
+@font-face{
+    font-family: "exi";
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+.barcelona{
+    background-image:url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/03/15/15211195237795.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh ;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows:12% 44% 44%;
+    grid-template-areas:"titulofcb copas escudo"
+                        "recordsfcb copas escudo"
+                        "videofcb copas 0";
+}
+.psg{
+    background-image: url(https://www.elindependiente.com.ar/elindependiente/1.0/img/483590673.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh ;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows:12% 44% 44%;
+    grid-template-areas:"titulopsg copas escudo"
+                        "recordspsg copas escudo"
+                        "videopsg copas 0";
+}
+.newells{
+    background-image: url(https://estaticos-cdn.sport.es/clip/de77a7d7-5683-4293-ae10-15b0ad5f4906_alta-libre-aspect-ratio_default_0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh ;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows:12% 44% 44%;
+    grid-template-areas:"titulonob copas escudo"
+                        "recordsnob copas escudo"
+                        "videonob copas 0";
+}
