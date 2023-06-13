@@ -81,7 +81,16 @@ body{
                         "videonob copas 0";
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    
+.index{
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleomobile.jpg);
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows: 10% 4% 62% 19% 8%;
+    grid-template-areas:"header header header header"
+                        "nav nav nav nav"
+                        "main main main main"
+                        "section section section section"
+                        "footer footer footer footer";
+}    
 }
 @media (min-width:481px) and (max-width: 596px){
 
@@ -90,7 +99,7 @@ body{
 
 }
 @media (min-width: 769px) and (max-width: 1024px){
-    
+
 }
 @media (min-width: 1025px) and (max-width: 1200px){
     

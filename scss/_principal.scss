@@ -47,23 +47,150 @@ main{
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    
+.indexmain{
+    .h2{
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+    }
+    .parrafo{
+    margin: auto;
+    overflow: scroll;
+    height: 415px;
+    }
+}
+.recordsarg{
+    .h2{
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+    }
+}
+.recordsfcb{
+    .h2{
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+    }
+}
+.recordsnob{
+    .h2{
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+    }
+}
+.recordspsg{
+    .h2{
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+    }
+}    
 }
 @media (min-width:481px) and (max-width: 596px){
-
+.indexmain{
+    .parrafo{
+    margin: auto;
+    overflow: scroll;
+    height: 415px;
+    }
+}
+.recordsarg{
+    
+}
+.recordsfcb{
+    
+}
+.recordsnob{
+    
+}
+.recordspsg{
+    
+} 
 }
 @media (min-width: 597px) and (max-width: 768px){
+.indexmain{
 
+}
+.recordsarg{
+    
+}
+.recordsfcb{
+    
+}
+.recordsnob{
+    
+}
+.recordspsg{
+    
+} 
 }
 @media (min-width: 769px) and (max-width: 1024px){
+.indexmain{
+
+}
+.recordsarg{
     
+}
+.recordsfcb{
+    
+}
+.recordsnob{
+    
+}
+.recordspsg{
+    
+}     
 }
 @media (min-width: 1025px) and (max-width: 1200px){
+.indexmain{
 
 }
-@media (min-width: 1201px) and (max-width:1400px){
+.recordsarg{
     
 }
-@media (min-width: 1401px) and (max-width: 1919px){
+.recordsfcb{
+    
+}
+.recordsnob{
+    
+}
+.recordspsg{
+    
+} 
+}
+@media (min-width: 1201px) and (max-width:1400px){
+.indexmain{
 
+}
+.recordsarg{
+    
+}
+.recordsfcb{
+    
+}
+.recordsnob{
+    
+}
+.recordspsg{
+    
+}     
+}
+@media (min-width: 1401px) and (max-width: 1919px){
+.indexmain{
+
+}
+.recordsarg{
+    
+}
+.recordsfcb{
+    
+}
+.recordsnob{
+    
+}
+.recordspsg{
+    
+} 
 }

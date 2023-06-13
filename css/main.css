@@ -76,6 +76,14 @@ body {
   grid-template-areas: "titulonob copas escudo" "recordsnob copas escudo" "videonob copas 0";
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .index {
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleomobile.jpg);
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 4% 62% 19% 8%;
+    grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "section section section section" "footer footer footer footer";
+  }
+}
 .footerindex {
   position: relative;
   grid-area: footer;
@@ -138,6 +146,30 @@ body {
   grid-area: escudo;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .footerindex {
+    text-align: center;
+    bottom: 20px;
+    position: relative;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footerindex h4 {
+    font-size: 17px;
+  }
+  .footerindex .redes {
+    font-size: 9px;
+  }
+  .footerindex a {
+    padding: 9px 7px;
+    margin: -2px;
+    position: relative;
+    left: -12px;
+    top: -6px;
+    font-size: 7px;
+  }
+}
 header {
   grid-area: header;
 }
@@ -180,6 +212,13 @@ header .h1 {
   color: white;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .h1 {
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+  }
+}
 main {
   grid-area: main;
   margin-left: 15px;
@@ -225,6 +264,45 @@ main .parrafo {
   font-size: 19px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .indexmain .h2 {
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+  }
+  .indexmain .parrafo {
+    margin: auto;
+    overflow: scroll;
+    height: 415px;
+  }
+  .recordsarg .h2 {
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+  }
+  .recordsfcb .h2 {
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+  }
+  .recordsnob .h2 {
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+  }
+  .recordspsg .h2 {
+    font-size: 21px;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (min-width: 481px) and (max-width: 596px) {
+  .indexmain .parrafo {
+    margin: auto;
+    overflow: scroll;
+    height: 415px;
+  }
+}
 .navindex {
   position: relative;
   grid-area: nav;
@@ -253,6 +331,17 @@ main .parrafo {
   margin: auto;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .navindex {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: -26px;
+  }
+  .navindex .m-2 {
+    margin: 0.4rem !important;
+  }
+}
 .sectionindex {
   grid-area: section;
   margin-left: auto;
@@ -325,6 +414,26 @@ main .parrafo {
   margin-bottom: 75px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .sectionindex {
+    position: relative;
+    bottom: 35px;
+    margin: auto;
+  }
+  .sectionindex .messiconcopas {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    height: 140px;
+  }
+  .sectionindex h3 {
+    text-align: center;
+  }
+  .sectionindex .w-100 {
+    width: 60% !important;
+    margin: auto;
+  }
+}
 aside {
   grid-area: aside;
   position: relative;
