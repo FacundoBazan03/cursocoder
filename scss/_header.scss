@@ -20,17 +20,20 @@ header{
     .titulofcb{
         grid-area: titulofcb;
         color: white;
+        margin: auto;
     }    
 }
 .newells{ 
     .titulonob{
         grid-area: titulonob;
+        margin: auto;
     }
 }
 .psg{
     .titulopsg{
         grid-area: titulopsg;
         color: white;
+        margin: auto;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -40,67 +43,81 @@ header{
     margin: auto;
 }
 .h1psg{
-        
+    font-size: 22px;
+    margin: auto; 
+    padding: 5px;     
 }
 .h1nob{
-        
+    font-size: 22px;
+    margin: auto; 
+    padding: 5px;   
 }
 .h1fcb{
-        
+    font-size: 22px;
+    margin: auto; 
+    padding: 5px;    
 }
 .h1arg{
-        
-} 
+    font-size: 22px;
+    margin: auto; 
+    padding: 5px;
+}
 }
 @media (min-width:481px) and (max-width: 596px){
 .h1{
-        
+    font-size: 25px;
+    text-align: center;
+    margin: auto;   
 }
 .h1psg{
-        
+    margin: auto; 
 }
 .h1nob{
-        
+    margin: auto;   
 }
 .h1fcb{
-        
+    margin: auto;    
 }
 .h1arg{
-        
+    margin: auto;    
 } 
 }
 @media (min-width: 597px) and (max-width: 768px){
 .h1{
-        
+    font-size: 23px;
+    text-align: center;
+    margin: auto;  
 }
 .h1psg{
-        
+    margin: auto;  
 }
 .h1nob{
-        
+    margin: auto;    
 }
 .h1fcb{
-        
+    margin: auto;  
 }
 .h1arg{
-        
+    margin: auto;   
 } 
 }
 @media (min-width: 769px) and (max-width: 1024px){
 .h1{
-        
+    font-size: 23px;
+    text-align: center;
+    margin: auto;  
 }
 .h1psg{
-        
+    margin: auto;   
 }
 .h1nob{
-        
+    margin: auto;   
 }
 .h1fcb{
-        
+    margin: auto;    
 }
 .h1arg{
-        
+    margin: auto;     
 }    
 }
 @media (min-width: 1025px) and (max-width: 1200px){

@@ -7,14 +7,13 @@
     .video{
         grid-area: video;
         margin: auto;
-        width: 600px;
-        height: 350px;
     }
 }
 .newells{
     .videonob{
         margin: auto;
         margin-bottom: 24px;
+        grid-area: videonob;
     }
 }
 .psg{
@@ -27,6 +26,7 @@
 .barcelona{
     .videofcb{
         margin: auto;
+        grid-area: videofcb;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -40,70 +40,129 @@
     }
 }
 .videopsg{
-
+    iframe{
+        height: 220px;
+        width: 300px;
+        }
 }
 .videonob{
-
+    iframe{
+        height: 220px;
+        width: 300px;
+        }
 }
 .videofcb{
-
+    iframe{
+        height: 220px;
+        width: 300px;
+        }
 }
 .video{
-
+    iframe{
+    display: grid;
+    height: 220px;
+    }
 }
 
 }
 @media (min-width:481px) and (max-width: 596px){
 .navindex{
-
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 20px;
 }
 .videopsg{
-
+    iframe{
+        height: 220px;
+        width: 300px;
+    }
 }
 .videonob{
-
+    iframe{
+        height: 220px;
+        width: 300px;
+    }
 }
 .videofcb{
-
+    iframe{
+        height: 220px;
+        width: 300px;
+    }
 }
 .video{
-    
+    iframe{
+        height: 220px;
+        margin: auto;
+    display: grid;
+    justify-content: center;
+    }
 }
 
 }
 @media (min-width: 597px) and (max-width: 768px){
 .navindex{
-
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 20px;
 }
 .videopsg{
-    
+    iframe{
+        height: 270px;
+        width: 480px;
+    }
 }
 .videonob{
-    
+    iframe{
+        height: 270px;
+        width: 480px;
+    }
 }
 .videofcb{
-    
+    iframe{
+        height: 270px;
+        width: 480px;
+    }
 }
 .video{
-        
+    iframe{
+        height: 250px;
+        width: 400px;
+    }
 }
     
 }
 @media (min-width: 769px) and (max-width: 1024px){
 .navindex{
-
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 20px;
 }
 .videopsg{
-    
+    iframe{
+        height: 270px;
+        width: 480px;
+    }
 }
 .videonob{
-    
+    iframe{
+        height: 270px;
+        width: 480px;
+    }
 }
 .videofcb{
-    
+    iframe{
+        height: 270px;
+        width: 480px;
+    }
 }
 .video{
-        
+    iframe{
+        height: 270px;
+        width: 480px;
+    }    
 }
        
 }

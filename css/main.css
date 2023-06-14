@@ -47,7 +47,7 @@ body {
   display: grid;
   grid-template-columns: 38% 10% 52%;
   grid-template-rows: 12% 44% 44%;
-  grid-template-areas: "titulofcb copas escudo" "recordsfcb copas escudo" "videofcb copas 0";
+  grid-template-areas: "titulofcb fotocopasfcb escudo" "recordsfcb fotocopasfcb escudo" "videofcb fotocopasfcb 0";
 }
 
 .psg {
@@ -60,7 +60,7 @@ body {
   display: grid;
   grid-template-columns: 38% 10% 52%;
   grid-template-rows: 12% 44% 44%;
-  grid-template-areas: "titulopsg copas escudo" "recordspsg copas escudo" "videopsg copas 0";
+  grid-template-areas: "titulopsg fotocopaspsg escudo" "recordspsg fotocopaspsg escudo" "videopsg fotocopaspsg 0";
 }
 
 .newells {
@@ -73,7 +73,7 @@ body {
   display: grid;
   grid-template-columns: 38% 10% 52%;
   grid-template-rows: 12% 44% 44%;
-  grid-template-areas: "titulonob copas escudo" "recordsnob copas escudo" "videonob copas 0";
+  grid-template-areas: "titulonob fotocopasnob escudo" "recordsnob fotocopasnob escudo" "videonob fotocopasnob 0";
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -82,6 +82,133 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 10% 4% 62% 19% 8%;
     grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "section section section section" "footer footer footer footer";
+  }
+  .argentina {
+    background-image: url();
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "tituloarg tituloarg tituloarg tituloarg" "agasajando agasajando agasajando agasajando" "recordsarg recordsarg recordsarg recordsarg" "video video video video";
+  }
+  .barcelona {
+    position: initial;
+    background-image: url(../assets/img/fondoDesktopMobile/fondobarsamobile.jpg);
+    height: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 7% 58% 28%;
+    grid-template-areas: "titulofcb titulofcb titulofcb titulofcb" "fotocopasfcb fotocopasfcb fotocopasfcb fotocopasfcb" "recordsfcb recordsfcb recordsfcb recordsfcb" "videofcb videofcb videofcb videofcb";
+  }
+  .newells {
+    background-image: url(../assets/img/fondoDesktopMobile/fondonewellsmobile.jpg);
+    position: initial;
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 7% 58% 28%;
+    grid-template-areas: "titulonob titulonob titulonob titulonob" "fotocopasnob fotocopasnob fotocopasnob fotocopasnob" "recordsnob recordsnob recordsnob recordsnob" "videonob videonob videonob videonob";
+  }
+  .psg {
+    position: initial;
+    background-image: url(../assets/img/fondoDesktopMobile/fondopsgmobile.jpg);
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 7% 58% 28%;
+    grid-template-areas: "titulopsg titulopsg titulopsg titulopsg" "fotocopaspsg fotocopaspsg fotocopaspsg fotocopaspsg" "recordspsg recordspsg recordspsg recordspsg" "videopsg videopsg videopsg videopsg";
+  }
+}
+@media (min-width: 481px) and (max-width: 596px) {
+  .index {
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleomobile.jpg);
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 9% 5% 55% 23% 8%;
+    grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "section section section section" "footer footer footer footer";
+  }
+  .argentina {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "tituloarg tituloarg tituloarg tituloarg" "agasajando agasajando agasajando agasajando" "recordsarg recordsarg recordsarg recordsarg" "video video video video";
+  }
+  .newells {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "titulonob titulonob titulonob titulonob" "fotocopasnob fotocopasnob fotocopasnob fotocopasnob" "recordsnob recordsnob recordsnob recordsnob" "videonob videonob videonob videonob";
+  }
+  .barcelona {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "titulofcb titulofcb titulofcb titulofcb" "fotocopasfcb fotocopasfcb fotocopasfcb fotocopasfcb" "recordsfcb recordsfcb recordsfcb recordsfcb" "videofcb videofcb videofcb videofcb";
+  }
+  .psg {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "titulopsg titulopsg titulopsg titulopsg" "fotocopaspsg fotocopaspsg fotocopaspsg fotocopaspsg" "recordspsg recordspsg recordspsg recordspsg" "videopsg videopsg videopsg videopsg";
+  }
+}
+@media (min-width: 597px) and (max-width: 768px) {
+  .index {
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleomobile.jpg);
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 6% 5% 56% 22% 11%;
+    grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "section section section section" "footer footer footer footer";
+  }
+  .argentina {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "tituloarg tituloarg tituloarg tituloarg" "agasajando agasajando agasajando agasajando" "recordsarg recordsarg recordsarg recordsarg" "video video trivia trivia";
+  }
+  .barcelona {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "titulofcb titulofcb titulofcb titulofcb" "fotocopasfcb fotocopasfcb fotocopasfcb fotocopasfcb" "recordsfcb recordsfcb recordsfcb recordsfcb" "videofcb videofcb videofcb videofcb";
+  }
+  .newells {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "titulonob titulonob titulonob titulonob" "fotocopasnob fotocopasnob fotocopasnob fotocopasnob" "recordsnob recordsnob recordsnob recordsnob" "videonob videonob videonob videonob";
+  }
+  .psg {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 8% 53% 32%;
+    grid-template-areas: "titulopsg titulopsg titulopsg titulopsg" "fotocopaspsg fotocopaspsg fotocopaspsg fotocopaspsg" "recordspsg recordspsg recordspsg recordspsg" "videopsg videopsg videopsg videopsg";
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index {
+    background-image: url(../img/leobyw2.jpg);
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 6% 5% 55% 26% 8%;
+    grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "footer footer section section" "footer footer section section";
+  }
+  .argentina {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 12% 47% 34%;
+    grid-template-areas: "tituloarg tituloarg tituloarg tituloarg" "agasajando agasajando agasajando agasajando" "recordsarg recordsarg recordsarg recordsarg" "video video trivia trivia";
+  }
+  .newells {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 12% 47% 34%;
+    grid-template-areas: "titulonob titulonob titulonob titulonob" "fotocopasnob fotocopasnob fotocopasnob fotocopasnob" "recordsnob recordsnob recordsnob recordsnob" "videonob videonob videonob videonob";
+  }
+  .psg {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 12% 47% 34%;
+    grid-template-areas: "titulopsg titulopsg titulopsg titulopsg" "fotocopaspsg fotocopaspsg fotocopaspsg fotocopaspsg" "recordspsg recordspsg recordspsg recordspsg" "videopsg videopsg videopsg videopsg";
+  }
+  .barcelona {
+    height: 100vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 7% 12% 47% 34%;
+    grid-template-areas: "titulofcb titulofcb titulofcb titulofcb" "fotocopasfcb fotocopasfcb fotocopasfcb fotocopasfcb" "recordsfcb recordsfcb recordsfcb recordsfcb" "videofcb videofcb videofcb videofcb";
   }
 }
 .footerindex {
@@ -169,6 +296,105 @@ body {
     top: -6px;
     font-size: 7px;
   }
+  .escudofcb {
+    display: none;
+  }
+  .escudonob {
+    display: none;
+  }
+  .escudopsg {
+    display: none;
+  }
+  .logoafa {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 596px) {
+  .footerindex a {
+    padding: 14px 11px;
+  }
+  .escudofcb {
+    display: none;
+  }
+  .escudonob {
+    display: none;
+  }
+  .escudopsg {
+    display: none;
+  }
+  .logoafa {
+    display: none;
+  }
+}
+@media (min-width: 597px) and (max-width: 768px) {
+  .footerindex a {
+    margin: 0px -7px;
+  }
+  .footerindex .row {
+    position: relative;
+    top: 10px;
+  }
+  .escudofcb {
+    position: relative;
+    margin: auto;
+    top: -50px;
+  }
+  .escudonob {
+    position: relative;
+    margin: auto;
+    top: -50px;
+  }
+  .escudopsg {
+    position: relative;
+    margin: auto;
+    top: -50px;
+  }
+  .logoafa {
+    height: 190px;
+    margin: 50px;
+    width: 175px;
+    margin-right: -35px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footerindex {
+    margin-top: auto;
+  }
+  .footerindex a {
+    padding: 14px 11px;
+  }
+  .footerindex ul {
+    display: flex;
+    justify-content: center;
+  }
+  .escudofcb {
+    position: relative;
+    left: 60px;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+  }
+  .escudonob {
+    position: relative;
+    left: 60px;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+  }
+  .escudopsg {
+    position: relative;
+    left: 60px;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+  }
+  .logoafa {
+    position: relative;
+    left: 60px;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+  }
 }
 header {
   grid-area: header;
@@ -201,21 +427,101 @@ header .h1 {
 .barcelona .titulofcb {
   grid-area: titulofcb;
   color: white;
+  margin: auto;
 }
 
 .newells .titulonob {
   grid-area: titulonob;
+  margin: auto;
 }
 
 .psg .titulopsg {
   grid-area: titulopsg;
   color: white;
+  margin: auto;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .h1 {
     font-size: 21px;
     text-align: center;
+    margin: auto;
+  }
+  .h1psg {
+    font-size: 22px;
+    margin: auto;
+    padding: 5px;
+  }
+  .h1nob {
+    font-size: 22px;
+    margin: auto;
+    padding: 5px;
+  }
+  .h1fcb {
+    font-size: 22px;
+    margin: auto;
+    padding: 5px;
+  }
+  .h1arg {
+    font-size: 22px;
+    margin: auto;
+    padding: 5px;
+  }
+}
+@media (min-width: 481px) and (max-width: 596px) {
+  .h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+  }
+  .h1psg {
+    margin: auto;
+  }
+  .h1nob {
+    margin: auto;
+  }
+  .h1fcb {
+    margin: auto;
+  }
+  .h1arg {
+    margin: auto;
+  }
+}
+@media (min-width: 597px) and (max-width: 768px) {
+  .h1 {
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+  }
+  .h1psg {
+    margin: auto;
+  }
+  .h1nob {
+    margin: auto;
+  }
+  .h1fcb {
+    margin: auto;
+  }
+  .h1arg {
+    margin: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .h1 {
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+  }
+  .h1psg {
+    margin: auto;
+  }
+  .h1nob {
+    margin: auto;
+  }
+  .h1fcb {
+    margin: auto;
+  }
+  .h1arg {
     margin: auto;
   }
 }
@@ -280,27 +586,211 @@ main .parrafo {
     text-align: center;
     margin: auto;
   }
+  .recordsarg .textoarg {
+    overflow: scroll;
+    height: 375px;
+  }
   .recordsfcb .h2 {
     font-size: 21px;
     text-align: center;
     margin: auto;
+  }
+  .recordsfcb .textofcb {
+    overflow: scroll;
+    height: 375px;
   }
   .recordsnob .h2 {
     font-size: 21px;
     text-align: center;
     margin: auto;
   }
+  .recordsnob .textonob {
+    overflow: scroll;
+    height: 375px;
+  }
   .recordspsg .h2 {
     font-size: 21px;
     text-align: center;
     margin: auto;
   }
+  .recordspsg .textopsg {
+    overflow: scroll;
+    height: 375px;
+  }
 }
 @media (min-width: 481px) and (max-width: 596px) {
+  .indexmain .h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+  }
   .indexmain .parrafo {
+    font-size: 10px;
+    margin: auto;
+    overflow: scroll;
+    height: 405px;
+  }
+  .recordsarg {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsarg .textoarg {
+    overflow: scroll;
+    height: 375px;
+  }
+  .recordsfcb {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsfcb .textofcb {
+    overflow: scroll;
+    height: 375px;
+  }
+  .recordsnob {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsnob .textonob {
+    overflow: scroll;
+    height: 375px;
+  }
+  .recordspsg {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordspsg .textopsg {
+    overflow: scroll;
+    height: 375px;
+  }
+}
+@media (min-width: 597px) and (max-width: 768px) {
+  .indexmain .h2 {
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+  }
+  .indexmain .parrafo {
+    font-size: 12px;
     margin: auto;
     overflow: scroll;
     height: 415px;
+  }
+  .recordsarg {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsarg .textoarg {
+    overflow: scroll;
+    height: 360px;
+    text-align: justify;
+    margin: auto;
+  }
+  .recordsfcb {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsfcb .textofcb {
+    overflow: scroll;
+    height: 360px;
+    text-align: justify;
+    margin: auto;
+  }
+  .recordsnob {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsnob .textonob {
+    overflow: scroll;
+    height: 360px;
+    text-align: justify;
+    margin: auto;
+  }
+  .recordspsg {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordspsg .textopsg {
+    overflow: scroll;
+    height: 360px;
+    text-align: justify;
+    margin: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .indexmain .h2 {
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+  }
+  .indexmain .parrafo {
+    font-size: 14px;
+    margin: auto;
+    overflow: scroll;
+    height: 460px;
+  }
+  .recordsarg {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsarg .textoarg {
+    overflow: scroll;
+    height: 330px;
+    text-align: justify;
+    margin: auto;
+  }
+  .recordsfcb {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsfcb .textofcb {
+    overflow: scroll;
+    height: 375px;
+    text-align: justify;
+    margin: auto;
+  }
+  .recordsnob {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordsnob .textonob {
+    overflow: scroll;
+    height: 375px;
+    text-align: justify;
+    margin: auto;
+  }
+  .recordspsg {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .recordspsg .textopsg {
+    overflow: scroll;
+    height: 375px;
+    text-align: justify;
+    margin: auto;
   }
 }
 .navindex {
@@ -312,13 +802,12 @@ main .parrafo {
 .argentina .video {
   grid-area: video;
   margin: auto;
-  width: 600px;
-  height: 350px;
 }
 
 .newells .videonob {
   margin: auto;
   margin-bottom: 24px;
+  grid-area: videonob;
 }
 
 .psg .videopsg {
@@ -329,6 +818,7 @@ main .parrafo {
 
 .barcelona .videofcb {
   margin: auto;
+  grid-area: videofcb;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -340,6 +830,96 @@ main .parrafo {
   }
   .navindex .m-2 {
     margin: 0.4rem !important;
+  }
+  .videopsg iframe {
+    height: 220px;
+    width: 300px;
+  }
+  .videonob iframe {
+    height: 220px;
+    width: 300px;
+  }
+  .videofcb iframe {
+    height: 220px;
+    width: 300px;
+  }
+  .video iframe {
+    display: grid;
+    height: 220px;
+  }
+}
+@media (min-width: 481px) and (max-width: 596px) {
+  .navindex {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 20px;
+  }
+  .videopsg iframe {
+    height: 220px;
+    width: 300px;
+  }
+  .videonob iframe {
+    height: 220px;
+    width: 300px;
+  }
+  .videofcb iframe {
+    height: 220px;
+    width: 300px;
+  }
+  .video iframe {
+    height: 220px;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media (min-width: 597px) and (max-width: 768px) {
+  .navindex {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 20px;
+  }
+  .videopsg iframe {
+    height: 270px;
+    width: 480px;
+  }
+  .videonob iframe {
+    height: 270px;
+    width: 480px;
+  }
+  .videofcb iframe {
+    height: 270px;
+    width: 480px;
+  }
+  .video iframe {
+    height: 250px;
+    width: 400px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navindex {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    right: 20px;
+  }
+  .videopsg iframe {
+    height: 270px;
+    width: 480px;
+  }
+  .videonob iframe {
+    height: 270px;
+    width: 480px;
+  }
+  .videofcb iframe {
+    height: 270px;
+    width: 480px;
+  }
+  .video iframe {
+    height: 270px;
+    width: 480px;
   }
 }
 .sectionindex {
@@ -384,7 +964,7 @@ main .parrafo {
 }
 
 .barcelona .fotocopasfcb {
-  grid-area: copas;
+  grid-area: fotocopasfcb;
 }
 .barcelona .h3fcb {
   border-color: red;
@@ -394,7 +974,7 @@ main .parrafo {
 }
 
 .newells .fotocopasnob {
-  grid-area: copas;
+  grid-area: fotocopasnob;
 }
 .newells .h3nob {
   border-color: red;
@@ -405,7 +985,7 @@ main .parrafo {
 }
 
 .psg .fotocopaspsg {
-  grid-area: copas;
+  grid-area: fotocopaspsg;
 }
 .psg .h3psg {
   border-color: darkblue;
@@ -432,6 +1012,197 @@ main .parrafo {
   .sectionindex .w-100 {
     width: 60% !important;
     margin: auto;
+  }
+  .agasajando {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .agasajando .h3arg {
+    display: none;
+  }
+  .agasajando .messiarg {
+    height: 60px;
+    width: 50px;
+  }
+  .fotocopasfcb {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasfcb .h3fcb {
+    display: none;
+  }
+  .fotocopasfcb .messifcb {
+    height: 60px;
+    width: 50px;
+  }
+}
+.fotocopasnob {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+}
+.fotocopasnob .h3nob {
+  display: none;
+}
+.fotocopasnob .messinob {
+  height: 60px;
+  width: 50px;
+}
+
+.fotocopaspsg {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+}
+.fotocopaspsg .h3psg {
+  display: none;
+}
+.fotocopaspsg .messipsg {
+  height: 60px;
+  width: 50px;
+}
+
+@media (min-width: 481px) and (max-width: 596px) {
+  .sectionindex .messiconcopas {
+    width: 180px !important;
+    margin: auto;
+    height: 165px;
+  }
+  .sectionindex h3 {
+    text-align: center;
+  }
+  .agasajando {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .agasajando .h3arg {
+    display: none;
+  }
+  .agasajando .messiarg {
+    height: 70px;
+    width: 65px;
+  }
+  .fotocopasfcb {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasnob {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopaspsg {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media (min-width: 597px) and (max-width: 768px) {
+  .sectionindex .messiconcopas {
+    height: 120px;
+  }
+  .sectionindex .w-100 {
+    width: 65% !important;
+    margin: auto;
+  }
+  .sectionindex h3 {
+    text-align: center;
+  }
+  .agasajando {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .agasajando img, .agasajando .messiarg {
+    height: 100px;
+    width: 100px !important;
+  }
+  .agasajando h3 {
+    display: none;
+  }
+  .fotocopasfcb {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasnob {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopaspsg {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sectionindex {
+    position: relative;
+    top: 20px;
+    margin: auto;
+  }
+  .sectionindex .messiconcopas {
+    height: 130px;
+  }
+  .sectionindex .w-100 {
+    width: 90% !important;
+    margin: auto;
+  }
+  .sectionindex h3 {
+    text-align: center;
+  }
+  .agasajando {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .agasajando .messiarg {
+    height: 100px;
+    width: 100px;
+  }
+  .agasajando .h3arg {
+    display: none;
+  }
+  .fotocopasfcb {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasfcb .messiarg {
+    height: 100px;
+    width: 100px;
+  }
+  .fotocopasfcb .h3arg {
+    display: none;
+  }
+  .fotocopasnob {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasnob .messiarg {
+    height: 100px;
+    width: 100px;
+  }
+  .fotocopasnob .h3arg {
+    display: none;
+  }
+  .fotocopaspsg {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopaspsg .messiarg {
+    height: 100px;
+    width: 100px;
+  }
+  .fotocopaspsg .h3arg {
+    display: none;
   }
 }
 aside {

@@ -65,12 +65,20 @@ main{
     text-align: center;
     margin: auto;
     }
+    .textoarg{
+        overflow: scroll;
+        height: 375px;
+    }
 }
 .recordsfcb{
     .h2{
     font-size: 21px;
     text-align: center;
     margin: auto;
+    }
+    .textofcb{
+        overflow: scroll;
+        height: 375px;
     }
 }
 .recordsnob{
@@ -79,68 +87,203 @@ main{
     text-align: center;
     margin: auto;
     }
+    .textonob{
+        overflow: scroll;
+        height: 375px;
+    }
 }
 .recordspsg{
     .h2{
     font-size: 21px;
     text-align: center;
     margin: auto;
+    }
+    .textopsg{
+        overflow: scroll;
+        height: 375px;
     }
 }    
 }
 @media (min-width:481px) and (max-width: 596px){
 .indexmain{
-    .parrafo{
-    margin: auto;
-    overflow: scroll;
-    height: 415px;
-    }
+.h2{
+        font-size: 25px;
+        text-align: center;
+        margin: auto; 
+}
+.parrafo {  
+        font-size: 10px;
+        margin: auto;
+        overflow: scroll;
+        height: 405px;
+            
+}
 }
 .recordsarg{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textoarg{
+        overflow: scroll;
+        height: 375px;
+    }
 }
 .recordsfcb{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textofcb{
+        overflow: scroll;
+        height: 375px;
+    }
 }
 .recordsnob{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textonob{
+        overflow: scroll;
+        height: 375px;
+    }
 }
 .recordspsg{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textopsg{
+        overflow: scroll;
+        height: 375px;
+    } 
 } 
 }
 @media (min-width: 597px) and (max-width: 768px){
 .indexmain{
-
+    .h2{
+        font-size: 23px;
+        text-align: center;
+        margin: auto;
+    }
+    .parrafo {  
+        font-size: 12px;
+        margin: auto;
+        overflow: scroll;
+        height: 415px;           
+    }
 }
 .recordsarg{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textoarg{
+        overflow: scroll;
+        height: 360px;
+        text-align: justify;
+        margin: auto;
+    }
 }
 .recordsfcb{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textofcb{
+        overflow: scroll;
+        height: 360px;
+        text-align: justify;
+        margin: auto;
+    }
 }
 .recordsnob{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textonob{
+        overflow: scroll;
+        height: 360px;
+        text-align: justify;
+        margin: auto;
+    }
 }
 .recordspsg{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textopsg{
+        overflow: scroll;
+        height: 360px;
+        text-align: justify;
+        margin: auto;
+    }
 } 
 }
 @media (min-width: 769px) and (max-width: 1024px){
 .indexmain{
-
+    .h2{
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+    }
+    .parrafo {  
+        font-size: 14px;
+        margin: auto;
+        overflow: scroll;
+        height: 460px;
+    }
 }
 .recordsarg{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textoarg{
+        overflow: scroll;
+        height: 330px;
+        text-align: justify;
+        margin: auto;
+    }
 }
 .recordsfcb{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textofcb{
+        overflow: scroll;
+        height: 375px;
+        text-align: justify;
+        margin: auto;
+    }
 }
 .recordsnob{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textonob{
+        overflow: scroll;
+        height: 375px;
+        text-align: justify;
+        margin: auto;
+    }
 }
 .recordspsg{
-    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .textopsg{
+        overflow: scroll;
+        height: 375px;
+        text-align: justify;
+        margin: auto;
+    }
 }     
 }
 @media (min-width: 1025px) and (max-width: 1200px){

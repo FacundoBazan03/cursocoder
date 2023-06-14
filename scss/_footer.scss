@@ -88,67 +88,107 @@ margin-right: auto;
     }
 }
 .escudofcb{
-
+    display: none;
 }
 .escudonob{
-
+    display: none;
 }
 .escudopsg{
-
+    display: none;
 }
 .logoafa{
-
+    display: none;
 }    
 }
 @media (min-width:481px) and (max-width: 596px){
 .footerindex{
-
+    a{
+        padding: 14px 11px;
+    }
 }
 .escudofcb{
-
+        display: none;
 }
 .escudonob{
-
+        display: none;
 }
 .escudopsg{
-
+        display: none; 
 }
 .logoafa{
-    
+        display: none;
 }
 }
 @media (min-width: 597px) and (max-width: 768px){
 .footerindex{
-
+    a{
+        margin: 0px -7px;
+    }
+    .row{
+        position: relative;
+        top: 10px;
+    }
 }
 .escudofcb{
-    
+    position: relative;
+    margin: auto;
+    top: -50px;
 }
 .escudonob{
-    
+    position: relative;
+    margin: auto;
+    top: -50px;
 }
 .escudopsg{
-    
+    position: relative;
+    margin: auto;
+    top: -50px;
 }
 .logoafa{
-        
+    height: 190px;
+    margin: 50px;
+    width: 175px;
+    margin-right: -35px;
 }
 }
 @media (min-width: 769px) and (max-width: 1024px){
 .footerindex{
-
+    margin-top: auto;
+    a{
+        padding: 14px 11px;
+    }
+    ul{ 
+        display: flex;
+        justify-content: center;
+    }
 }
 .escudofcb{
-    
+    position: relative;
+    left: 60px;
+    margin: auto;
+    height: 250px;
+    width: 250px; 
 }
 .escudonob{
-    
+    position: relative;
+    left: 60px;
+    margin: auto;
+    height: 250px;
+    width: 250px; 
 }
 .escudopsg{
-    
+    position: relative;
+    left: 60px;
+    margin: auto;
+    height: 250px;
+    width: 250px; 
 }
 .logoafa{
-        
+    position: relative;
+    left: 60px;
+    margin: auto;
+    height: 250px;
+    width: 250px; 
 }    
 }
 @media (min-width: 1025px) and (max-width: 1200px){
