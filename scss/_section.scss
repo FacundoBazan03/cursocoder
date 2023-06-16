@@ -45,14 +45,20 @@
 .newells{
     .fotocopasnob{
         grid-area: fotocopasnob;
+        &, div{
+            display: inline-grid;
+        }
+    }
+    .messinob{
+        margin-bottom: 75px;
+        height: 120px !important;
+        width: 120px !important;
     }
     .h3nob{
         border-color: red;
         display: none;
     }
-    .messinob{
-        margin-bottom: 75px;
-    }
+    
 }
 .psg{
     .fotocopaspsg{
@@ -68,7 +74,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
 .sectionindex{
 position: relative;
-bottom: 35px;
+bottom: 45px;;
 margin: auto;
     
     .messiconcopas{
@@ -136,6 +142,7 @@ margin: auto;
 }
 @media (min-width:481px) and (max-width: 596px){
 .sectionindex{
+    bottom: 20px;
     .messiconcopas{
         width: 180px !important;
         margin: auto;
@@ -161,6 +168,13 @@ margin: auto;
     margin: auto;
     display: grid;
     justify-content: center;
+    .h3fcb{
+        display: none;
+    }
+    .messifcb{
+        height: 70px;
+        width: 65px;
+    }
 }
 .fotocopasnob{
     margin: auto;
@@ -175,11 +189,12 @@ margin: auto;
 }
 @media (min-width: 597px) and (max-width: 768px){
 .sectionindex{
+    top: 20px;
     .messiconcopas{
-        height: 120px;
+        height: 140px;;
     }
     .w-100{
-        width: 65% !important;
+        width: 70% !important;
         margin: auto;
     }
     h3{
@@ -202,25 +217,53 @@ margin: auto;
     margin: auto;
     display: grid;
     justify-content: center;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    img, .messifcb{
+        height: 100px;
+        width: 100px !important;
+    }
+    h3{
+        display: none;
+    }
 }
 .fotocopasnob{
     margin: auto;
     display: grid;
     justify-content: center;
+    
+    .messinob{
+        height: 90px;
+        width: 90px !important;
+    }
+    h3{
+        display: none;
+    }
 }
 .fotocopaspsg{
     margin: auto;
     display: grid;
-    justify-content: center;   
+    justify-content: center;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    img, .messipsg{
+        height: 100px;
+        width: 100px !important;
+    }
+    h3{
+        display: none;
+    }   
 }
 }
 @media (min-width: 769px) and (max-width: 1024px){
 .sectionindex{
     position: relative;
-    top: 20px;
+    top: 35px;
     margin: auto;
     .messiconcopas{
-        height: 130px;
+        height: 180px;
     }
     .w-100{
         width: 90% !important;
@@ -246,11 +289,11 @@ margin: auto;
     margin: auto;
     display: grid;
     justify-content: center;
-    .messiarg{
+    .messifcb{
         height: 100px;
         width: 100px;
     }
-    .h3arg{
+    .h3fcb{
         display: none;
     }
 }
@@ -258,11 +301,11 @@ margin: auto;
     margin: auto;
     display: grid;
     justify-content: center;
-    .messiarg{
+    .messinob{
         height: 100px;
         width: 100px;
     }
-    .h3arg{
+    .h3nob{
         display: none;
     }
 }
@@ -270,11 +313,11 @@ margin: auto;
     margin: auto;
     display: grid;
     justify-content: center;   
-    .messiarg{
+    .messipsg{
         height: 100px;
         width: 100px;
     }
-    .h3arg{
+    .h3psg{
         display: none;
     }
 }
@@ -284,16 +327,45 @@ margin: auto;
 
 }
 .agasajando{
-    
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    .h3arg{
+        display: none;
+    }
 }
 .fotocopasfcb{
     
+        margin: auto;
+        display: grid;
+        justify-content: center;
+    .messifcb{
+        height: 100px;
+        width: 100px;
+    }
+    .h3fcb{
+        display: none;
+    }
 }
 .fotocopasnob{
-    
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    .messinob{
+        margin: 10px;
+        height: 100px;
+        width: 100px;
+    }
+    .h3nob{
+        display: none;
+    }
 }
 .fotocopaspsg{
-        
+    .messiarg{
+        margin: auto;
+        display: grid;
+        justify-content: center;
+    }
 }    
 }
 @media (min-width: 1201px) and (max-width:1400px){
@@ -301,16 +373,35 @@ margin: auto;
 
 }
 .agasajando{
-    
+    .messiarg{
+        margin: auto;
+        display: grid;
+        justify-content: center;
+    }
 }
 .fotocopasfcb{
-    
+    .messifcb{
+        margin: auto;
+        display: grid;
+        justify-content: center;
+    }
 }
 .fotocopasnob{
-    
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    .messinob{
+        margin: 25px;
+        height: 120px;
+        width: 120px;
+    }
 }
 .fotocopaspsg{
-        
+    .messiarg{
+        margin: auto;
+        display: grid;
+        justify-content: center;
+    } 
 }    
 }
 @media (min-width: 1401px) and (max-width: 1919px){
@@ -318,13 +409,28 @@ margin: auto;
 
 }
 .agasajando{
-    
+    .messiarg{
+        margin: auto;
+        display: grid;
+        justify-content: center;
+    }
 }
 .fotocopasfcb{
-    
+    .messifcb{
+        margin: auto;
+        display: grid;
+        justify-content: center;
+    }
 }
 .fotocopasnob{
-    
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    .messinob{
+        margin: 25px;
+        height: 120px;
+        width: 120px;
+    }
 }
 .fotocopaspsg{
         

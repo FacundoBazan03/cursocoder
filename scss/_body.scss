@@ -40,7 +40,7 @@ body{
 }
 .barcelona{
     font-family: "exi";
-    background-image:url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/03/15/15211195237795.jpg); 
+    background-image:url(../assets/img/fondoDesktopMobile/messifondofcb.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh ;
@@ -68,7 +68,7 @@ body{
 }
 .newells{
     font-family: "exi";
-    background-image: url(https://estaticos-cdn.sport.es/clip/de77a7d7-5683-4293-ae10-15b0ad5f4906_alta-libre-aspect-ratio_default_0.jpg);
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh ;
@@ -91,7 +91,7 @@ body{
                         "section section section section"
                         "footer footer footer footer";
 }
-.argentina{ background-image: url();
+.argentina{
     height: 100vh;
     grid-template-columns:25% 25% 25% 25%;
     grid-template-rows: 7% 8% 53% 32%;
@@ -102,7 +102,7 @@ body{
 }
 .barcelona{
     position: initial;
-    background-image: url(../assets/img/fondoDesktopMobile/fondobarsamobile.jpg);
+    background-image: url(../assets/img/fondoDesktopMobile/messifondofcb.jpg);
     height: 100%;
     grid-template-columns:25% 25% 25% 25%;
     grid-template-rows: 7% 7% 58% 28%;
@@ -155,6 +155,7 @@ body{
                             "video video video video"; 
     }
     .newells{
+        background-image: url(../assets/img/fondoDesktopMobile/fondonewellsmobile.jpg);
         height: 100vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 8% 53% 32%;
@@ -164,7 +165,8 @@ body{
         "videonob videonob videonob videonob";
     }
     .barcelona{
-        height: 100vh;
+        background-image: url(../assets/img/fondoDesktopMobile/fondobarsamobile.jpg);
+        height: 95vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 8% 53% 32%;
         grid-template-areas:"titulofcb titulofcb titulofcb titulofcb"
@@ -204,6 +206,7 @@ body{
                             "video video trivia trivia";
     }
     .barcelona{
+        background-image: url(../assets/img/fondoDesktopMobile/fondobarsamobile.jpg);
         height: 100vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 8% 53% 32%;
@@ -213,7 +216,8 @@ body{
         "videofcb videofcb videofcb videofcb";
     }
     .newells{
-        height: 100vh;
+        background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells2.jpg);
+        height: 99vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 8% 53% 32%;
         grid-template-areas:"titulonob titulonob titulonob titulonob"
@@ -233,7 +237,7 @@ body{
 }
 @media (min-width: 769px) and (max-width: 1024px){
     .index{
-        background-image: url(../img/leobyw2.jpg);
+        background-image: url(../assets/img/fondoDesktopMobile/leobyw2.jpg);
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 6% 5% 55% 26% 8%;
         grid-template-areas:"header header header header"
@@ -252,6 +256,7 @@ body{
                             "video video trivia trivia";   
     }
     .newells{
+        background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells2.jpg);
         height: 100vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 12% 47% 34%;
@@ -270,6 +275,7 @@ body{
         "videopsg videopsg videopsg videopsg"; 
     }
     .barcelona{
+        background-image: url(../assets/img/fondoDesktopMobile/messifondomobilefcb.jpg);
         height: 100vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 12% 47% 34%;
@@ -280,11 +286,97 @@ body{
     } 
 }
 @media (min-width: 1025px) and (max-width: 1200px){
-    
+    .index{
+        background-image: url(../assets/img/fondoDesktopMobile/leobyw2.jpg);
+    }        
+    .argentina {
+            font-family: "exi";
+            background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/221127164140-lionel-messi-inter-miami-rumors-spt-intl.jpg?c=original);
+            height: 100vh;
+            position: fixed;
+            display: grid;
+            grid-template-columns: 38% 10% 52%;
+            grid-template-rows: 12% 44% 44%;
+            grid-template-areas:
+                "tituloarg agasajando trivia"
+                "recordsarg agasajando trivia"
+                "0 agasajando video";
+    }
+    .barcelona{
+        background-image: url(../assets/img/fondoDesktopMobile/messifondomobilefcb.jpg);
+        height: 100vh;
+        grid-template-columns: 38% 10% 52%;
+            grid-template-rows: 12% 44% 44%;
+            grid-template-areas:
+                "titulofcb fotocopasfcb escudofcb"
+                "recordsfcb fotocopasfcb escudofcb"
+                "0 fotocopasfcb videofcb";
+    } 
+    .newells{
+        background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells2.jpg);
+        height: 100vh;
+        grid-template-columns: 38% 10% 52%;
+            grid-template-rows: 12% 44% 44%;
+            grid-template-areas:
+                "titulonob fotocopasnob escudonob"
+                "recordsnob fotocopasnob escudonob"
+                "0 fotocopasnob videonob";
+    } 
 }
 @media (min-width: 1201px) and (max-width:1400px){
-    
+    .argentina {
+        font-family: "exi";
+        background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/221127164140-lionel-messi-inter-miami-rumors-spt-intl.jpg?c=original);
+        height: 100vh;
+        position: fixed;
+        display: grid;
+        grid-template-columns: 38% 10% 52%;
+        grid-template-rows: 12% 44% 44%;
+        grid-template-areas:
+            "tituloarg agasajando trivia"
+            "recordsarg agasajando trivia"
+            "0 agasajando video";
+}
+.barcelona{
+    background-image: url(../assets/img/fondoDesktopMobile/messifondofcb2.jpg);
+    height: 100vh;
+    grid-template-columns: 38% 10% 52%;
+        grid-template-rows: 12% 44% 44%;
+        grid-template-areas:
+            "titulofcb fotocopasfcb escudofcb"
+            "recordsfcb fotocopasfcb escudofcb"
+            "0 fotocopasfcb videofcb";
+} 
+.newells{
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells.jpg);
+    height: 100vh;
+    grid-template-columns: 38% 10% 52%;
+        grid-template-rows: 12% 44% 44%;
+        grid-template-areas:
+            "titulonob fotocopasnob escudonob"
+            "recordsnob fotocopasnob escudonob"
+            "0 fotocopasnob videonob";
+} 
 }
 @media (min-width: 1401px) and (max-width: 1919px){
-
+    .barcelona{
+        background-image: url(../assets/img/fondoDesktopMobile/messifondofcb2.jpg);
+        height: 100vh;
+        grid-template-columns: 38% 10% 52%;
+            grid-template-rows: 12% 44% 44%;
+            grid-template-areas:
+                "titulofcb fotocopasfcb escudofcb"
+                "recordsfcb fotocopasfcb escudofcb"
+                "0 fotocopasfcb videofcb";
+    } 
+    .newells{
+        background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells.jpg);
+        height: 100vh;
+        grid-template-columns: 38% 10% 52%;
+            grid-template-rows: 12% 44% 44%;
+            grid-template-areas:
+                "titulonob fotocopasnob escudonob"
+                "recordsnob fotocopasnob escudonob"
+                "0 fotocopasnob videonob";
+    } 
 }

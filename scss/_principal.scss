@@ -7,11 +7,13 @@ main{
         padding: 20px;
     }
     .parrafo{
-        font-size: 86%;
+        font-size: 82%;
         text-align: left;
         color: aliceblue;
         font-weight: bold;
         position: relative;
+        overflow: scroll;
+        height: 80%;
     }
 }
 .argentina{
@@ -36,6 +38,9 @@ main{
     .recordsnob{
         grid-area: recordsnob;
     }
+    .textonob{
+        color: white;
+    }
 }
 .psg{
     .recordspsg{
@@ -56,7 +61,7 @@ main{
     .parrafo{
     margin: auto;
     overflow: scroll;
-    height: 415px;
+    height: 370px;;
     }
 }
 .recordsarg{
@@ -115,7 +120,7 @@ main{
         font-size: 10px;
         margin: auto;
         overflow: scroll;
-        height: 405px;
+        height: 355px;
             
 }
 }
@@ -136,7 +141,7 @@ main{
     flex-direction: column;
     .textofcb{
         overflow: scroll;
-        height: 375px;
+        height: 350px;
     }
 }
 .recordsnob{
@@ -171,7 +176,7 @@ main{
         font-size: 12px;
         margin: auto;
         overflow: scroll;
-        height: 415px;           
+        height: 395px;;           
     }
 }
 .recordsarg{
@@ -205,7 +210,7 @@ main{
     flex-direction: column;
     .textonob{
         overflow: scroll;
-        height: 360px;
+        height: 312px;
         text-align: justify;
         margin: auto;
     }
@@ -288,10 +293,16 @@ main{
 }
 @media (min-width: 1025px) and (max-width: 1200px){
 .indexmain{
-
+    p{ 
+    overflow: scroll;
+    height: 65%;
+    }
 }
 .recordsarg{
-    
+    .textoarg{
+        overflow: scroll;
+        height: 150%;
+    }
 }
 .recordsfcb{
     
@@ -305,7 +316,10 @@ main{
 }
 @media (min-width: 1201px) and (max-width:1400px){
 .indexmain{
-
+    p{ 
+        overflow: scroll;
+        height: 65%;
+        }
 }
 .recordsarg{
     
@@ -325,7 +339,10 @@ main{
 
 }
 .recordsarg{
-    
+    .textoarg{
+        overflow: scroll;
+        height: 77%;
+    }
 }
 .recordsfcb{
     

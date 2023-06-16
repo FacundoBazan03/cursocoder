@@ -39,7 +39,7 @@ body {
 }
 .barcelona {
   font-family: "exi";
-  background-image: url(https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/03/15/15211195237795.jpg);
+  background-image: url(../assets/img/fondoDesktopMobile/messifondofcb.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -65,7 +65,7 @@ body {
 
 .newells {
   font-family: "exi";
-  background-image: url(https://estaticos-cdn.sport.es/clip/de77a7d7-5683-4293-ae10-15b0ad5f4906_alta-libre-aspect-ratio_default_0.jpg);
+  background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -84,7 +84,6 @@ body {
     grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "section section section section" "footer footer footer footer";
   }
   .argentina {
-    background-image: url();
     height: 100vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 7% 8% 53% 32%;
@@ -92,7 +91,7 @@ body {
   }
   .barcelona {
     position: initial;
-    background-image: url(../assets/img/fondoDesktopMobile/fondobarsamobile.jpg);
+    background-image: url(../assets/img/fondoDesktopMobile/messifondofcb.jpg);
     height: 100%;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 7% 7% 58% 28%;
@@ -129,13 +128,15 @@ body {
     grid-template-areas: "tituloarg tituloarg tituloarg tituloarg" "agasajando agasajando agasajando agasajando" "recordsarg recordsarg recordsarg recordsarg" "video video video video";
   }
   .newells {
+    background-image: url(../assets/img/fondoDesktopMobile/fondonewellsmobile.jpg);
     height: 100vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 7% 8% 53% 32%;
     grid-template-areas: "titulonob titulonob titulonob titulonob" "fotocopasnob fotocopasnob fotocopasnob fotocopasnob" "recordsnob recordsnob recordsnob recordsnob" "videonob videonob videonob videonob";
   }
   .barcelona {
-    height: 100vh;
+    background-image: url(../assets/img/fondoDesktopMobile/fondobarsamobile.jpg);
+    height: 95vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 7% 8% 53% 32%;
     grid-template-areas: "titulofcb titulofcb titulofcb titulofcb" "fotocopasfcb fotocopasfcb fotocopasfcb fotocopasfcb" "recordsfcb recordsfcb recordsfcb recordsfcb" "videofcb videofcb videofcb videofcb";
@@ -161,13 +162,15 @@ body {
     grid-template-areas: "tituloarg tituloarg tituloarg tituloarg" "agasajando agasajando agasajando agasajando" "recordsarg recordsarg recordsarg recordsarg" "video video trivia trivia";
   }
   .barcelona {
+    background-image: url(../assets/img/fondoDesktopMobile/fondobarsamobile.jpg);
     height: 100vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 7% 8% 53% 32%;
     grid-template-areas: "titulofcb titulofcb titulofcb titulofcb" "fotocopasfcb fotocopasfcb fotocopasfcb fotocopasfcb" "recordsfcb recordsfcb recordsfcb recordsfcb" "videofcb videofcb videofcb videofcb";
   }
   .newells {
-    height: 100vh;
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells2.jpg);
+    height: 99vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 7% 8% 53% 32%;
     grid-template-areas: "titulonob titulonob titulonob titulonob" "fotocopasnob fotocopasnob fotocopasnob fotocopasnob" "recordsnob recordsnob recordsnob recordsnob" "videonob videonob videonob videonob";
@@ -181,7 +184,7 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .index {
-    background-image: url(../img/leobyw2.jpg);
+    background-image: url(../assets/img/fondoDesktopMobile/leobyw2.jpg);
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 6% 5% 55% 26% 8%;
     grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "footer footer section section" "footer footer section section";
@@ -193,6 +196,7 @@ body {
     grid-template-areas: "tituloarg tituloarg tituloarg tituloarg" "agasajando agasajando agasajando agasajando" "recordsarg recordsarg recordsarg recordsarg" "video video trivia trivia";
   }
   .newells {
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells2.jpg);
     height: 100vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 7% 12% 47% 34%;
@@ -205,10 +209,82 @@ body {
     grid-template-areas: "titulopsg titulopsg titulopsg titulopsg" "fotocopaspsg fotocopaspsg fotocopaspsg fotocopaspsg" "recordspsg recordspsg recordspsg recordspsg" "videopsg videopsg videopsg videopsg";
   }
   .barcelona {
+    background-image: url(../assets/img/fondoDesktopMobile/messifondomobilefcb.jpg);
     height: 100vh;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 7% 12% 47% 34%;
     grid-template-areas: "titulofcb titulofcb titulofcb titulofcb" "fotocopasfcb fotocopasfcb fotocopasfcb fotocopasfcb" "recordsfcb recordsfcb recordsfcb recordsfcb" "videofcb videofcb videofcb videofcb";
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .index {
+    background-image: url(../assets/img/fondoDesktopMobile/leobyw2.jpg);
+  }
+  .argentina {
+    font-family: "exi";
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/221127164140-lionel-messi-inter-miami-rumors-spt-intl.jpg?c=original);
+    height: 100vh;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows: 12% 44% 44%;
+    grid-template-areas: "tituloarg agasajando trivia" "recordsarg agasajando trivia" "0 agasajando video";
+  }
+  .barcelona {
+    background-image: url(../assets/img/fondoDesktopMobile/messifondomobilefcb.jpg);
+    height: 100vh;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows: 12% 44% 44%;
+    grid-template-areas: "titulofcb fotocopasfcb escudofcb" "recordsfcb fotocopasfcb escudofcb" "0 fotocopasfcb videofcb";
+  }
+  .newells {
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells2.jpg);
+    height: 100vh;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows: 12% 44% 44%;
+    grid-template-areas: "titulonob fotocopasnob escudonob" "recordsnob fotocopasnob escudonob" "0 fotocopasnob videonob";
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .argentina {
+    font-family: "exi";
+    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/221127164140-lionel-messi-inter-miami-rumors-spt-intl.jpg?c=original);
+    height: 100vh;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows: 12% 44% 44%;
+    grid-template-areas: "tituloarg agasajando trivia" "recordsarg agasajando trivia" "0 agasajando video";
+  }
+  .barcelona {
+    background-image: url(../assets/img/fondoDesktopMobile/messifondofcb2.jpg);
+    height: 100vh;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows: 12% 44% 44%;
+    grid-template-areas: "titulofcb fotocopasfcb escudofcb" "recordsfcb fotocopasfcb escudofcb" "0 fotocopasfcb videofcb";
+  }
+  .newells {
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells.jpg);
+    height: 100vh;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows: 12% 44% 44%;
+    grid-template-areas: "titulonob fotocopasnob escudonob" "recordsnob fotocopasnob escudonob" "0 fotocopasnob videonob";
+  }
+}
+@media (min-width: 1401px) and (max-width: 1919px) {
+  .barcelona {
+    background-image: url(../assets/img/fondoDesktopMobile/messifondofcb2.jpg);
+    height: 100vh;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows: 12% 44% 44%;
+    grid-template-areas: "titulofcb fotocopasfcb escudofcb" "recordsfcb fotocopasfcb escudofcb" "0 fotocopasfcb videofcb";
+  }
+  .newells {
+    background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells.jpg);
+    height: 100vh;
+    grid-template-columns: 38% 10% 52%;
+    grid-template-rows: 12% 44% 44%;
+    grid-template-areas: "titulonob fotocopasnob escudonob" "recordsnob fotocopasnob escudonob" "0 fotocopasnob videonob";
   }
 }
 .footerindex {
@@ -262,15 +338,15 @@ body {
 }
 
 .barcelona .escudofcb {
-  grid-area: escudo;
+  grid-area: escudofcb;
 }
 
 .newells .escudonob {
-  grid-area: escudo;
+  grid-area: escudonob;
 }
 
 .psg .escudopsg {
-  grid-area: escudo;
+  grid-area: escudopsg;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -311,7 +387,7 @@ body {
 }
 @media (min-width: 481px) and (max-width: 596px) {
   .footerindex a {
-    padding: 14px 11px;
+    padding: 6px 11px;
   }
   .escudofcb {
     display: none;
@@ -394,6 +470,39 @@ body {
     margin: auto;
     height: 250px;
     width: 250px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .footerindex {
+    bottom: 90px;
+  }
+  .footerindex h4 {
+    font-size: 19px;
+  }
+  .footerindex ul {
+    display: table-row-group;
+  }
+  .footerindex a {
+    margin: -10px 45px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .footerindex {
+    bottom: 90px;
+  }
+  .footerindex h4 {
+    font-size: 19px;
+  }
+  .footerindex ul {
+    display: table-row-group;
+  }
+  .footerindex a {
+    margin: -10px 45px;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1919px) {
+  .footerindex li {
+    margin: -5px -25px;
   }
 }
 header {
@@ -525,6 +634,33 @@ header .h1 {
     margin: auto;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .h1 {
+    font-size: 25px;
+  }
+  .h1fcb {
+    font-size: 31px;
+  }
+  .h1arg {
+    font-size: 29px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .h1 {
+    font-size: 28px;
+  }
+  .h1fcb {
+    font-size: 36px;
+  }
+  .h1arg {
+    font-size: 36px;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1919px) {
+  .h1 {
+    font-size: 31px;
+  }
+}
 main {
   grid-area: main;
   margin-left: 15px;
@@ -535,11 +671,13 @@ main .h2 {
   padding: 20px;
 }
 main .parrafo {
-  font-size: 86%;
+  font-size: 82%;
   text-align: left;
   color: aliceblue;
   font-weight: bold;
   position: relative;
+  overflow: scroll;
+  height: 80%;
 }
 
 .argentina main ul {
@@ -561,6 +699,9 @@ main .parrafo {
 .newells .recordsnob {
   grid-area: recordsnob;
 }
+.newells .textonob {
+  color: white;
+}
 
 .psg .recordspsg {
   grid-area: recordspsg;
@@ -579,7 +720,7 @@ main .parrafo {
   .indexmain .parrafo {
     margin: auto;
     overflow: scroll;
-    height: 415px;
+    height: 370px;
   }
   .recordsarg .h2 {
     font-size: 21px;
@@ -628,7 +769,7 @@ main .parrafo {
     font-size: 10px;
     margin: auto;
     overflow: scroll;
-    height: 405px;
+    height: 355px;
   }
   .recordsarg {
     margin: auto;
@@ -648,7 +789,7 @@ main .parrafo {
   }
   .recordsfcb .textofcb {
     overflow: scroll;
-    height: 375px;
+    height: 350px;
   }
   .recordsnob {
     margin: auto;
@@ -681,7 +822,7 @@ main .parrafo {
     font-size: 12px;
     margin: auto;
     overflow: scroll;
-    height: 415px;
+    height: 395px;
   }
   .recordsarg {
     margin: auto;
@@ -715,7 +856,7 @@ main .parrafo {
   }
   .recordsnob .textonob {
     overflow: scroll;
-    height: 360px;
+    height: 312px;
     text-align: justify;
     margin: auto;
   }
@@ -791,6 +932,28 @@ main .parrafo {
     height: 375px;
     text-align: justify;
     margin: auto;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .indexmain p {
+    overflow: scroll;
+    height: 65%;
+  }
+  .recordsarg .textoarg {
+    overflow: scroll;
+    height: 150%;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .indexmain p {
+    overflow: scroll;
+    height: 65%;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1919px) {
+  .recordsarg .textoarg {
+    overflow: scroll;
+    height: 77%;
   }
 }
 .navindex {
@@ -885,6 +1048,10 @@ main .parrafo {
     height: 270px;
     width: 480px;
   }
+  .videonob {
+    position: relative;
+    bottom: 10px;
+  }
   .videonob iframe {
     height: 270px;
     width: 480px;
@@ -976,12 +1143,17 @@ main .parrafo {
 .newells .fotocopasnob {
   grid-area: fotocopasnob;
 }
-.newells .h3nob {
-  border-color: red;
-  display: none;
+.newells .fotocopasnob, .newells .fotocopasnob div {
+  display: inline-grid;
 }
 .newells .messinob {
   margin-bottom: 75px;
+  height: 120px !important;
+  width: 120px !important;
+}
+.newells .h3nob {
+  border-color: red;
+  display: none;
 }
 
 .psg .fotocopaspsg {
@@ -997,7 +1169,7 @@ main .parrafo {
 @media (min-width: 320px) and (max-width: 480px) {
   .sectionindex {
     position: relative;
-    bottom: 35px;
+    bottom: 45px;
     margin: auto;
   }
   .sectionindex .messiconcopas {
@@ -1065,6 +1237,9 @@ main .parrafo {
 }
 
 @media (min-width: 481px) and (max-width: 596px) {
+  .sectionindex {
+    bottom: 20px;
+  }
   .sectionindex .messiconcopas {
     width: 180px !important;
     margin: auto;
@@ -1090,6 +1265,13 @@ main .parrafo {
     display: grid;
     justify-content: center;
   }
+  .fotocopasfcb .h3fcb {
+    display: none;
+  }
+  .fotocopasfcb .messifcb {
+    height: 70px;
+    width: 65px;
+  }
   .fotocopasnob {
     margin: auto;
     display: grid;
@@ -1102,11 +1284,14 @@ main .parrafo {
   }
 }
 @media (min-width: 597px) and (max-width: 768px) {
+  .sectionindex {
+    top: 20px;
+  }
   .sectionindex .messiconcopas {
-    height: 120px;
+    height: 140px;
   }
   .sectionindex .w-100 {
-    width: 65% !important;
+    width: 70% !important;
     margin: auto;
   }
   .sectionindex h3 {
@@ -1128,26 +1313,53 @@ main .parrafo {
     margin: auto;
     display: grid;
     justify-content: center;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasfcb img, .fotocopasfcb .messifcb {
+    height: 100px;
+    width: 100px !important;
+  }
+  .fotocopasfcb h3 {
+    display: none;
   }
   .fotocopasnob {
     margin: auto;
     display: grid;
     justify-content: center;
   }
+  .fotocopasnob .messinob {
+    height: 90px;
+    width: 90px !important;
+  }
+  .fotocopasnob h3 {
+    display: none;
+  }
   .fotocopaspsg {
     margin: auto;
     display: grid;
     justify-content: center;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopaspsg img, .fotocopaspsg .messipsg {
+    height: 100px;
+    width: 100px !important;
+  }
+  .fotocopaspsg h3 {
+    display: none;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .sectionindex {
     position: relative;
-    top: 20px;
+    top: 35px;
     margin: auto;
   }
   .sectionindex .messiconcopas {
-    height: 130px;
+    height: 180px;
   }
   .sectionindex .w-100 {
     width: 90% !important;
@@ -1173,11 +1385,11 @@ main .parrafo {
     display: grid;
     justify-content: center;
   }
-  .fotocopasfcb .messiarg {
+  .fotocopasfcb .messifcb {
     height: 100px;
     width: 100px;
   }
-  .fotocopasfcb .h3arg {
+  .fotocopasfcb .h3fcb {
     display: none;
   }
   .fotocopasnob {
@@ -1185,11 +1397,11 @@ main .parrafo {
     display: grid;
     justify-content: center;
   }
-  .fotocopasnob .messiarg {
+  .fotocopasnob .messinob {
     height: 100px;
     width: 100px;
   }
-  .fotocopasnob .h3arg {
+  .fotocopasnob .h3nob {
     display: none;
   }
   .fotocopaspsg {
@@ -1197,12 +1409,101 @@ main .parrafo {
     display: grid;
     justify-content: center;
   }
-  .fotocopaspsg .messiarg {
+  .fotocopaspsg .messipsg {
     height: 100px;
     width: 100px;
   }
-  .fotocopaspsg .h3arg {
+  .fotocopaspsg .h3psg {
     display: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .agasajando {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .agasajando .h3arg {
+    display: none;
+  }
+  .fotocopasfcb {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasfcb .messifcb {
+    height: 100px;
+    width: 100px;
+  }
+  .fotocopasfcb .h3fcb {
+    display: none;
+  }
+  .fotocopasnob {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasnob .messinob {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+  }
+  .fotocopasnob .h3nob {
+    display: none;
+  }
+  .fotocopaspsg .messiarg {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .agasajando .messiarg {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasfcb .messifcb {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasnob {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasnob .messinob {
+    margin: 25px;
+    height: 120px;
+    width: 120px;
+  }
+  .fotocopaspsg .messiarg {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1919px) {
+  .agasajando .messiarg {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasfcb .messifcb {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasnob {
+    margin: auto;
+    display: grid;
+    justify-content: center;
+  }
+  .fotocopasnob .messinob {
+    margin: 25px;
+    height: 120px;
+    width: 120px;
   }
 }
 aside {
@@ -1210,6 +1511,24 @@ aside {
   position: relative;
   bottom: -58px;
   left: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  aside aside {
+    display: none;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  aside {
+    position: relative;
+    top: 40px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  aside {
+    position: relative;
+    top: 40px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

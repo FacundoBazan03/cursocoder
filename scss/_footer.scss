@@ -50,17 +50,17 @@
 }
 .barcelona{ 
     .escudofcb{
-        grid-area: escudo;
+        grid-area: escudofcb;
     }
 }
 .newells{
     .escudonob{
-        grid-area: escudo;
+        grid-area: escudonob;
     }
 }
 .psg{
     .escudopsg{
-        grid-area: escudo;
+        grid-area: escudopsg;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -103,7 +103,7 @@ margin-right: auto;
 @media (min-width:481px) and (max-width: 596px){
 .footerindex{
     a{
-        padding: 14px 11px;
+        padding: 6px 11px;
     }
 }
 .escudofcb{
@@ -193,7 +193,16 @@ margin-right: auto;
 }
 @media (min-width: 1025px) and (max-width: 1200px){
 .footerindex{
-
+    bottom: 90px;
+    h4{
+        font-size: 19px;
+    }
+    ul{
+        display: table-row-group;
+    }
+    a{
+        margin: -10px 45px
+    }
 }
 .escudofcb{
     
@@ -210,7 +219,16 @@ margin-right: auto;
 }
 @media (min-width: 1201px) and (max-width:1400px){
 .footerindex{
-
+    bottom: 90px;
+    h4{
+        font-size: 19px;
+    }
+    ul{
+        display: table-row-group;
+    }
+    a{
+        margin: -10px 45px
+    }
 }
 .escudofcb{
     
@@ -227,7 +245,9 @@ margin-right: auto;
 }
 @media (min-width: 1401px) and (max-width: 1919px){
 .footerindex{
-
+    li{ 
+    margin: -5px -25px;
+    }
 }
 .escudofcb{
     
