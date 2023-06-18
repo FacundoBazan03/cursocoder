@@ -8,12 +8,19 @@ header{
     }
 }
 .argentina{ 
-    .h1arg{
-        padding: 20px;
-    }
     .tituloarg{
         grid-area: tituloarg;
         color: white;
+    }
+    #gradientetituloarg{
+        top: 20px;
+        position: relative;
+        width: 100%;
+        height: 50px;
+        border-style: double;
+        margin: auto;
+        background: rgb(0,236,255);
+        background: linear-gradient(90deg, rgba(0,236,255,0.5130427170868348) 0%, rgba(212,204,23,0.3449754901960784) 49%, rgba(0,255,248,0.49343487394957986) 100%);
     }
 }
 .barcelona{ 
@@ -21,6 +28,14 @@ header{
         grid-area: titulofcb;
         color: white;
         margin: auto;
+    }
+    #gradientetitulofcb{
+        border-style: double;
+        margin: auto;
+        width: 100% !important;
+        height: 50px !important;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,0.35057773109243695) 0%, rgba(9,9,121,0.958420868347339) 35%, rgba(255,0,44,0.2721463585434174) 100%);
     }    
 }
 .newells{ 
@@ -28,12 +43,29 @@ header{
         grid-area: titulonob;
         margin: auto;
     }
+    #gradientetitulonob{
+        border-style: double;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,0.7539390756302521) 0%, rgba(212,23,23,0.7511379551820728) 49%, rgba(0,0,0,0.6923144257703081) 100%);
+    }
 }
 .psg{
     .titulopsg{
         grid-area: titulopsg;
         color: white;
         margin: auto;
+        background: linear-gradient(to bottom, #020024 #090979 #ff002c);
+    }
+    #gradientetitulopsg{
+        border-style: double;
+        margin: auto;
+        width: 100%;
+        height: 50px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,0.35057773109243695) 0%, rgba(9,9,121,0.958420868347339) 35%, rgba(255,0,44,0.2721463585434174) 100%);
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -125,7 +157,7 @@ header{
         font-size: 25px;
 }
 .h1psg{
-        
+        font-size: 32px;
 }
 .h1nob{
         
@@ -142,7 +174,7 @@ header{
     font-size: 28px;
 }
 .h1psg{
-        
+        font-size: 38px;
 }
 .h1nob{
         

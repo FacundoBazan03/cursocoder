@@ -62,8 +62,8 @@ body{
     display: grid;
     grid-template-columns: 38% 10% 52%;
     grid-template-rows:12% 44% 44%;
-    grid-template-areas:"titulopsg fotocopaspsg escudo"
-                        "recordspsg fotocopaspsg escudo"
+    grid-template-areas:"titulopsg fotocopaspsg escudopsg"
+                        "recordspsg fotocopaspsg escudopsg"
                         "videopsg fotocopaspsg 0";
 }
 .newells{
@@ -76,8 +76,8 @@ body{
     display: grid;
     grid-template-columns: 38% 10% 52%;
     grid-template-rows:12% 44% 44%;
-    grid-template-areas:"titulonob fotocopasnob escudo"
-                        "recordsnob fotocopasnob escudo"
+    grid-template-areas:"titulonob fotocopasnob escudonob"
+                        "recordsnob fotocopasnob escudonob"
                         "videonob fotocopasnob 0";
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -101,8 +101,9 @@ body{
                         "video video video video";
 }
 .barcelona{
+    background-size: auto;
     position: initial;
-    background-image: url(../assets/img/fondoDesktopMobile/messifondofcb.jpg);
+    background-image: url(../assets/img/fondoDesktopMobile/messifondomobilefcb.jpg);
     height: 100%;
     grid-template-columns:25% 25% 25% 25%;
     grid-template-rows: 7% 7% 58% 28%;
@@ -165,7 +166,8 @@ body{
         "videonob videonob videonob videonob";
     }
     .barcelona{
-        background-image: url(../assets/img/fondoDesktopMobile/fondobarsamobile.jpg);
+        background-size: auto;
+        background-image: url(../assets/img/fondoDesktopMobile/messifondomobilefcb.jpg);
         height: 95vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 8% 53% 32%;
@@ -175,6 +177,8 @@ body{
         "videofcb videofcb videofcb videofcb";
     }
     .psg{
+        position: initial;
+        background-image: url(../assets/img/fondoDesktopMobile/fondopsgmobile.jpg);
         height: 100vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 8% 53% 32%;
@@ -216,6 +220,7 @@ body{
         "videofcb videofcb videofcb videofcb";
     }
     .newells{
+        background-size: 110%;
         background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells2.jpg);
         height: 99vh;
         grid-template-columns:25% 25% 25% 25%;
@@ -226,6 +231,7 @@ body{
         "videonob videonob videonob videonob";
     }
     .psg{
+        background-image: url(../assets/img/fondoDesktopMobile/fondopsgmobile.jpg);
         height: 100vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 8% 53% 32%;
@@ -266,6 +272,7 @@ body{
         "videonob videonob videonob videonob"; 
     }
     .psg{
+        background-image: url(../assets/img/fondoDesktopMobile/fondopsgmobile.jpg);
         height: 100vh;
         grid-template-columns:25% 25% 25% 25%;
         grid-template-rows: 7% 12% 47% 34%;
@@ -322,6 +329,16 @@ body{
                 "recordsnob fotocopasnob escudonob"
                 "0 fotocopasnob videonob";
     } 
+    .psg{
+        background-image: url(../assets/img/fondoDesktopMobile/fondopsg.jpg);
+        height: 100vh;
+        grid-template-columns: 38% 10% 52%;
+            grid-template-rows: 12% 44% 44%;
+            grid-template-areas:
+                "titulopsg fotocopaspsg escudopsg"
+                "recordspsg fotocopaspsg escudopsg"
+                "0 fotocopaspsg videopsg";
+    } 
 }
 @media (min-width: 1201px) and (max-width:1400px){
     .argentina {
@@ -348,15 +365,26 @@ body{
             "0 fotocopasfcb videofcb";
 } 
 .newells{
+    background-size: 110%;
     background-image: url(../assets/img/fondoDesktopMobile/fondoleonewells.jpg);
     height: 100vh;
     grid-template-columns: 38% 10% 52%;
         grid-template-rows: 12% 44% 44%;
         grid-template-areas:
-            "titulonob fotocopasnob escudonob"
-            "recordsnob fotocopasnob escudonob"
-            "0 fotocopasnob videonob";
+        "titulonob titulonob escudonob"
+        "recordsnob recordsnob escudonob"
+        "fotocopasnob 0 videonob";
 } 
+ .psg{
+        background-image: url(../assets/img/fondoDesktopMobile/fondopsg.jpg);
+        height: 100vh;
+        grid-template-columns: 38% 10% 52%;
+            grid-template-rows: 12% 44% 44%;
+            grid-template-areas:
+                "titulopsg fotocopaspsg escudopsg"
+                "recordspsg fotocopaspsg escudopsg"
+                "0 fotocopaspsg videopsg";
+    } 
 }
 @media (min-width: 1401px) and (max-width: 1919px){
     .barcelona{
@@ -378,5 +406,15 @@ body{
                 "titulonob fotocopasnob escudonob"
                 "recordsnob fotocopasnob escudonob"
                 "0 fotocopasnob videonob";
+    } 
+    .psg{
+        background-image: url(../assets/img/fondoDesktopMobile/fondopsg.jpg);
+        height: 100vh;
+        grid-template-columns: 38% 10% 52%;
+            grid-template-rows: 12% 44% 44%;
+            grid-template-areas:
+                "titulopsg fotocopaspsg escudopsg"
+                "recordspsg fotocopaspsg escudopsg"
+                "0 fotocopaspsg videopsg";
     } 
 }

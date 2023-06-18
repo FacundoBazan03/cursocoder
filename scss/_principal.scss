@@ -33,6 +33,14 @@ main{
         grid-area: recordsfcb;
         color: white;
     }
+    .textofcb{   
+    }
+    #gradientetitulo{
+        width: 400px;
+        height: 400px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,0.8939950980392157) 0%, rgba(9,9,121,0.8127626050420168) 35%, rgba(255,0,44,0.5886729691876751) 100%);
+    }
 }
 .newells{
     .recordsnob{
@@ -311,7 +319,10 @@ main{
     
 }
 .recordspsg{
-    
+    .textopsg{
+        overflow: scroll;
+        height: 150%;
+    }
 } 
 }
 @media (min-width: 1201px) and (max-width:1400px){

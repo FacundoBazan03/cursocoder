@@ -45,14 +45,10 @@
 .newells{
     .fotocopasnob{
         grid-area: fotocopasnob;
-        &, div{
-            display: inline-grid;
-        }
+        
     }
     .messinob{
-        margin-bottom: 75px;
-        height: 120px !important;
-        width: 120px !important;
+        margin-bottom: 75px;    
     }
     .h3nob{
         border-color: red;
@@ -64,11 +60,11 @@
     .fotocopaspsg{
         grid-area: fotocopaspsg;
     }
-    .h3psg{
-        border-color: darkblue;
-    }
     .messipsg{
         margin-bottom: 75px;
+    }
+    .h3psg{
+        border-color: darkblue;
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -99,8 +95,8 @@ margin: auto;
         display: none;
     }
     .messiarg{
-        height: 60px;
-        width: 50px;
+        height: 60px !important;
+        width: 50px !important;
     }
 }
 .fotocopasfcb{
@@ -115,7 +111,7 @@ margin: auto;
         width: 50px;
     }
 }
-}
+
 .fotocopasnob{
     margin: auto;
     display: grid;
@@ -124,8 +120,8 @@ margin: auto;
         display: none;
     }
     .messinob{
-        height: 60px;
-        width: 50px;
+        height: 60px ;
+        width: 50px ;
     }
 }
 .fotocopaspsg{
@@ -136,9 +132,10 @@ margin: auto;
         display: none;
     }
     .messipsg{
-        height: 60px;
-        width: 50px;
+        height: 60px ;
+        width: 50px ;
     }
+}
 }
 @media (min-width:481px) and (max-width: 596px){
 .sectionindex{
@@ -180,11 +177,25 @@ margin: auto;
     margin: auto;
     display: grid;
     justify-content: center;
+    .h3nob{
+        display: none;
+    }
+    .messinob{
+        height: 90px ;
+        width: 80px ;
+    }
 }
 .fotocopaspsg{
     margin: auto;
     display: grid;
     justify-content: center; 
+    .h3psg{
+        display: none;
+    }
+    .messipsg{
+        height: 90px ;
+        width: 80px ;
+    }
 }
 }
 @media (min-width: 597px) and (max-width: 768px){
@@ -234,8 +245,8 @@ margin: auto;
     justify-content: center;
     
     .messinob{
-        height: 90px;
-        width: 90px !important;
+        height: 90px ;
+        width: 90px ;
     }
     h3{
         display: none;
@@ -245,12 +256,9 @@ margin: auto;
     margin: auto;
     display: grid;
     justify-content: center;
-    margin: auto;
-    display: grid;
-    justify-content: center;
-    img, .messipsg{
+    .messipsg{
         height: 100px;
-        width: 100px !important;
+        width: 100px;
     }
     h3{
         display: none;
@@ -347,11 +355,13 @@ margin: auto;
         display: none;
     }
 }
+
 .fotocopasnob{
     margin: auto;
-    display: grid;
     justify-content: center;
     .messinob{
+        display: inline-flex !important;
+        flex-direction: column !important;
         margin: 10px;
         height: 100px;
         width: 100px;
@@ -361,11 +371,17 @@ margin: auto;
     }
 }
 .fotocopaspsg{
-    .messiarg{
         margin: auto;
         display: grid;
         justify-content: center;
+    .messipsg { 
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
     }
+.h3nob{
+    display: none;
+}
 }    
 }
 @media (min-width: 1201px) and (max-width:1400px){
@@ -388,20 +404,27 @@ margin: auto;
 }
 .fotocopasnob{
     margin: auto;
-    display: grid;
     justify-content: center;
     .messinob{
-        margin: 25px;
-        height: 120px;
-        width: 120px;
+        position: relative;
+        margin: auto;
+        height: 90px !important;
+        width: 80px !important;
+        left: 15%;;
     }
 }
 .fotocopaspsg{
-    .messiarg{
-        margin: auto;
-        display: grid;
-        justify-content: center;
-    } 
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    .messipsg { 
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    }
+    .h3psg{
+    display: none;
+    }
 }    
 }
 @media (min-width: 1401px) and (max-width: 1919px){
@@ -433,6 +456,33 @@ margin: auto;
     }
 }
 .fotocopaspsg{
-        
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    .messipsg{
+        height: 110px;
+        width: 110px;
+    }
 }
+}
+@media (min-width: 1920px){
+    .fotocopasnob{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    .messinob{
+        margin: 25px;
+        height: 120px;
+        width: 120px;
+    }
+    }
+.fotocopaspsg{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    .messipsg{
+        height: 120px;
+        width: 120px;
+    }
+    }
 }
