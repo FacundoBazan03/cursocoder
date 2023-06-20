@@ -1351,7 +1351,11 @@ main .parrafo {
   grid-area: agasajando;
 }
 .argentina .messiarg {
+  border-style: inset;
   margin-bottom: 30px;
+}
+.argentina .gradienteSectionArg {
+  text-shadow: -2px -3px 0px black, -2px -3px 5px rgb(0, 81, 255);
 }
 
 .barcelona .fotocopasfcb {
@@ -1361,28 +1365,40 @@ main .parrafo {
   border-color: red;
 }
 .barcelona .messifcb {
+  border-style: inset;
   margin-bottom: 30px;
+}
+.barcelona .gradienteSectionFcb {
+  text-shadow: -1px -1px 0px rgb(251, 255, 0), -2px -3px 5px rgb(255, 0, 0);
 }
 
 .newells .fotocopasnob {
   grid-area: fotocopasnob;
 }
 .newells .messinob {
+  border-style: inset;
   margin-bottom: 75px;
 }
 .newells .h3nob {
   border-color: red;
   display: none;
 }
+.newells .gradienteSectionNob {
+  text-shadow: -2px -3px 0px black, -2px -3px 5px rgb(255, 0, 0);
+}
 
 .psg .fotocopaspsg {
   grid-area: fotocopaspsg;
 }
 .psg .messipsg {
+  border-style: inset;
   margin-bottom: 75px;
 }
 .psg .h3psg {
   border-color: darkblue;
+}
+.psg .gradienteSectionPsg {
+  text-shadow: -2px -3px 0px rgb(255, 255, 255), -2px -3px 5px rgb(0, 81, 255);
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

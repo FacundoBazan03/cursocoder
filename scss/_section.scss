@@ -28,7 +28,11 @@
         grid-area: agasajando;
     }
     .messiarg{
+        border-style: inset;
         margin-bottom: 30px;
+    }
+    .gradienteSectionArg{
+        text-shadow: -2px -3px 0px black, -2px -3px 5px rgb(0, 81, 255);
     }
 }
 .barcelona{ 
@@ -39,7 +43,11 @@
         border-color: red;
     }
     .messifcb{
+        border-style: inset;
         margin-bottom: 30px;  
+    }
+    .gradienteSectionFcb{
+        text-shadow: -1px -1px 0px rgb(251, 255, 0), -2px -3px 5px rgb(255, 0, 0);
     }
 }
 .newells{
@@ -48,11 +56,15 @@
         
     }
     .messinob{
+        border-style: inset;
         margin-bottom: 75px;    
     }
     .h3nob{
         border-color: red;
         display: none;
+    }
+    .gradienteSectionNob{
+        text-shadow: -2px -3px 0px black, -2px -3px 5px rgb(255, 0, 0);
     }
     
 }
@@ -61,10 +73,14 @@
         grid-area: fotocopaspsg;
     }
     .messipsg{
+        border-style: inset;
         margin-bottom: 75px;
     }
     .h3psg{
         border-color: darkblue;
+    }
+    .gradienteSectionPsg{
+        text-shadow: -2px -3px 0px rgb(255, 255, 255), -2px -3px 5px rgb(0, 81, 255);
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
