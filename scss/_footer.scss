@@ -46,21 +46,25 @@
     }
     .p0{
         grid-area: trivia;
+        animation:slide-top 1s linear both}@keyframes slide-top{0%{transform:translateY(1000px)}100%{transform:translateY(0px)}
     }  
 }
 .barcelona{ 
     .escudofcb{
         grid-area: escudofcb;
+        animation:slide-top 1s linear both}@keyframes slide-top{0%{transform:translateY(1000px)}100%{transform:translateY(0px)}
     }
 }
 .newells{
     .escudonob{
         grid-area: escudonob;
+        animation:slide-top 1s linear both}@keyframes slide-top{0%{transform:translateY(1000px)}100%{transform:translateY(0px)}
     }
 }
 .psg{
     .escudopsg{
         grid-area: escudopsg;
+        animation:slide-top 1s linear both}@keyframes slide-top{0%{transform:translateY(1000px)}100%{transform:translateY(0px)}
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {

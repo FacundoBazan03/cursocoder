@@ -47,7 +47,7 @@ body {
   display: grid;
   grid-template-columns: 38% 10% 52%;
   grid-template-rows: 12% 44% 44%;
-  grid-template-areas: "titulofcb fotocopasfcb escudo" "recordsfcb fotocopasfcb escudo" "videofcb fotocopasfcb 0";
+  grid-template-areas: "titulofcb fotocopasfcb escudofcb" "recordsfcb fotocopasfcb escudofcb" "videofcb fotocopasfcb 0";
 }
 
 .psg {
@@ -364,18 +364,54 @@ body {
 }
 .argentina .p0 {
   grid-area: trivia;
+  animation: slide-top 1s linear both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .barcelona .escudofcb {
   grid-area: escudofcb;
+  animation: slide-top 1s linear both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .newells .escudonob {
   grid-area: escudonob;
+  animation: slide-top 1s linear both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .psg .escudopsg {
   grid-area: escudopsg;
+  animation: slide-top 1s linear both;
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -538,6 +574,8 @@ header {
   grid-area: header;
 }
 header .h1 {
+  text-transform: capitalize;
+  text-shadow: 20px 20px 4px black, 20px 17px 20px lightblue;
   color: aliceblue;
   padding: 15px;
   font-style: oblique;
@@ -555,8 +593,20 @@ header .h1 {
 }
 
 .argentina .tituloarg {
+  text-transform: capitalize;
   grid-area: tituloarg;
   color: white;
+  animation: scale-up-bottom 0.4s;
+}
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: center bottom;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: center bottom;
+  }
 }
 .argentina #gradientetituloarg {
   top: 20px;
@@ -570,9 +620,21 @@ header .h1 {
 }
 
 .barcelona .titulofcb {
+  text-transform: capitalize;
   grid-area: titulofcb;
   color: white;
   margin: auto;
+  animation: scale-up-bottom 0.4s;
+}
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: center bottom;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: center bottom;
+  }
 }
 .barcelona #gradientetitulofcb {
   border-style: double;
@@ -584,8 +646,20 @@ header .h1 {
 }
 
 .newells .titulonob {
+  text-transform: capitalize;
   grid-area: titulonob;
   margin: auto;
+  animation: scale-up-bottom 0.4s;
+}
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: center bottom;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: center bottom;
+  }
 }
 .newells #gradientetitulonob {
   border-style: double;
@@ -597,10 +671,22 @@ header .h1 {
 }
 
 .psg .titulopsg {
+  text-transform: capitalize;
   grid-area: titulopsg;
   color: white;
   margin: auto;
   background: linear-gradient(to bottom, #020024 #090979 #ff002c);
+  animation: scale-up-bottom 0.4s;
+}
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: center bottom;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: center bottom;
+  }
 }
 .psg #gradientetitulopsg {
   border-style: double;
@@ -703,7 +789,7 @@ header .h1 {
     font-size: 32px;
   }
   .h1fcb {
-    font-size: 31px;
+    font-size: 30px;
   }
   .h1arg {
     font-size: 29px;
@@ -733,11 +819,16 @@ main {
   margin-left: 15px;
 }
 main .h2 {
+  text-transform: capitalize;
   font-style: oblique;
   color: aliceblue;
   padding: 20px;
 }
 main .parrafo {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px 7px rgb(16, 109, 231);
   font-size: 82%;
   text-align: left;
   color: aliceblue;
@@ -749,31 +840,52 @@ main .parrafo {
 
 .argentina main ul {
   color: white;
+  list-style: none;
 }
 .argentina .recordsarg {
   color: white;
   grid-area: recordsarg;
 }
 .argentina .textoarg {
+  padding: 10px;
+  background-color: black;
   font-size: 15px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px 7px rgb(0, 174, 255);
+}
+.argentina .h2 {
+  text-transform: capitalize;
+  text-shadow: 20px 20px 4px black, 20px 17px 20px rgb(0, 106, 206);
 }
 
 .barcelona .recordsfcb {
   grid-area: recordsfcb;
   color: white;
 }
-.barcelona #gradientetitulo {
-  width: 400px;
-  height: 400px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 0.893995098) 0%, rgba(9, 9, 121, 0.812762605) 35%, rgba(255, 0, 44, 0.5886729692) 100%);
+.barcelona .textofcb {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 20px 7px red;
+}
+.barcelona .h2 {
+  text-transform: capitalize;
+  text-shadow: 20px 20px 4px black, 20px 17px 20px rgb(235, 231, 25);
 }
 
 .newells .recordsnob {
   grid-area: recordsnob;
 }
 .newells .textonob {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px 7px red;
   color: white;
+}
+.newells .h2 {
+  text-transform: capitalize;
+  text-shadow: 20px 20px 4px black, 20px 17px 20px red;
 }
 
 .psg .recordspsg {
@@ -781,7 +893,15 @@ main .parrafo {
   color: white;
 }
 .psg .textopsg {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px 7px rgb(0, 81, 255);
   font-size: 19px;
+}
+.psg .h2 {
+  text-transform: capitalize;
+  text-shadow: 20px 20px 4px black, 20px 17px 20px rgb(0, 81, 255);
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -884,6 +1004,9 @@ main .parrafo {
     overflow: scroll;
     height: 375px;
   }
+  .recordspsg .h2 {
+    font-size: 22px;
+  }
 }
 @media (min-width: 597px) and (max-width: 768px) {
   .indexmain .h2 {
@@ -983,6 +1106,7 @@ main .parrafo {
     margin: auto;
   }
   .recordsnob {
+    font-size: 20px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -1016,6 +1140,10 @@ main .parrafo {
     overflow: scroll;
     height: 150%;
   }
+  .recordsfcb .textofcb {
+    overflow: scroll;
+    height: 150%;
+  }
   .recordspsg .textopsg {
     overflow: scroll;
     height: 150%;
@@ -1025,6 +1153,10 @@ main .parrafo {
   .indexmain p {
     overflow: scroll;
     height: 65%;
+  }
+  .recordsfcb .textofcb {
+    overflow: scroll;
+    height: 150%;
   }
 }
 @media (min-width: 1401px) and (max-width: 1919px) {
@@ -1150,20 +1282,35 @@ main .parrafo {
     right: 20px;
   }
   .videopsg iframe {
-    height: 270px;
+    height: 230px;
     width: 480px;
+    margin-bottom: -15px;
   }
   .videonob iframe {
-    height: 270px;
+    margin-top: 50px;
+    height: 235px;
     width: 480px;
   }
   .videofcb iframe {
-    height: 270px;
+    margin-top: 40px;
+    height: 235px;
     width: 480px;
   }
   .video iframe {
     height: 270px;
     width: 480px;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1919px) {
+  .video {
+    top: 25px;
+    position: relative;
+  }
+}
+@media (min-width: 1920px) {
+  .video {
+    top: 25px;
+    position: relative;
   }
 }
 .sectionindex {
@@ -1269,6 +1416,10 @@ main .parrafo {
     height: 60px !important;
     width: 50px !important;
   }
+  .agasajando .divFlexArg {
+    display: flex;
+    margin: 15px;
+  }
   .fotocopasfcb {
     margin: auto;
     display: grid;
@@ -1280,6 +1431,10 @@ main .parrafo {
   .fotocopasfcb .messifcb {
     height: 60px;
     width: 50px;
+  }
+  .fotocopasfcb .divFlexFcb {
+    display: flex;
+    margin: 15px;
   }
   .fotocopasnob {
     margin: auto;
@@ -1293,6 +1448,10 @@ main .parrafo {
     height: 60px;
     width: 50px;
   }
+  .fotocopasnob .divFlexNob {
+    display: flex;
+    margin: 15px;
+  }
   .fotocopaspsg {
     margin: auto;
     display: grid;
@@ -1303,7 +1462,11 @@ main .parrafo {
   }
   .fotocopaspsg .messipsg {
     height: 60px;
-    width: 50px;
+    width: 60px;
+  }
+  .fotocopaspsg .divFlexPsg {
+    display: flex;
+    margin: 15px;
   }
 }
 @media (min-width: 481px) and (max-width: 596px) {
@@ -1330,6 +1493,10 @@ main .parrafo {
     height: 70px;
     width: 65px;
   }
+  .agasajando .divFlexArg {
+    display: flex;
+    margin: 15px;
+  }
   .fotocopasfcb {
     margin: auto;
     display: grid;
@@ -1342,6 +1509,10 @@ main .parrafo {
     height: 70px;
     width: 65px;
   }
+  .fotocopasfcb .divFlexFcb {
+    display: flex;
+    margin: 15px;
+  }
   .fotocopasnob {
     margin: auto;
     display: grid;
@@ -1351,8 +1522,12 @@ main .parrafo {
     display: none;
   }
   .fotocopasnob .messinob {
-    height: 90px;
+    height: 80px;
     width: 80px;
+  }
+  .fotocopasnob .divFlexNob {
+    display: flex;
+    margin: 10px;
   }
   .fotocopaspsg {
     margin: auto;
@@ -1363,8 +1538,12 @@ main .parrafo {
     display: none;
   }
   .fotocopaspsg .messipsg {
-    height: 90px;
+    height: 80px;
     width: 80px;
+  }
+  .fotocopaspsg .divFlexPsg {
+    display: flex;
+    margin: 10px;
   }
 }
 @media (min-width: 597px) and (max-width: 768px) {
@@ -1387,11 +1566,15 @@ main .parrafo {
     justify-content: center;
   }
   .agasajando img, .agasajando .messiarg {
-    height: 100px;
-    width: 100px !important;
+    height: 90px;
+    width: 90px !important;
   }
   .agasajando h3 {
     display: none;
+  }
+  .agasajando .divFlexArg {
+    display: flex;
+    margin: 15px;
   }
   .fotocopasfcb {
     margin: auto;
@@ -1402,11 +1585,15 @@ main .parrafo {
     justify-content: center;
   }
   .fotocopasfcb img, .fotocopasfcb .messifcb {
-    height: 100px;
-    width: 100px !important;
+    height: 90px;
+    width: 90px !important;
   }
   .fotocopasfcb h3 {
     display: none;
+  }
+  .fotocopasfcb .divFlexFcb {
+    display: flex;
+    margin: 15px;
   }
   .fotocopasnob {
     margin: auto;
@@ -1420,17 +1607,25 @@ main .parrafo {
   .fotocopasnob h3 {
     display: none;
   }
+  .fotocopasnob .divFlexNob {
+    display: flex;
+    margin: 15px;
+  }
   .fotocopaspsg {
     margin: auto;
     display: grid;
     justify-content: center;
   }
   .fotocopaspsg .messipsg {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 95px;
   }
   .fotocopaspsg h3 {
     display: none;
+  }
+  .fotocopaspsg .divFlexPsg {
+    display: flex;
+    margin: 10px;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -1461,6 +1656,10 @@ main .parrafo {
   .agasajando .h3arg {
     display: none;
   }
+  .agasajando .divFlexArg {
+    display: flex;
+    margin: 15px;
+  }
   .fotocopasfcb {
     margin: auto;
     display: grid;
@@ -1472,6 +1671,10 @@ main .parrafo {
   }
   .fotocopasfcb .h3fcb {
     display: none;
+  }
+  .fotocopasfcb .divFlexFcb {
+    display: flex;
+    margin: 15px;
   }
   .fotocopasnob {
     margin: auto;
@@ -1485,6 +1688,10 @@ main .parrafo {
   .fotocopasnob .h3nob {
     display: none;
   }
+  .fotocopasnob .divFlexNob {
+    display: flex;
+    margin: 15px;
+  }
   .fotocopaspsg {
     margin: auto;
     display: grid;
@@ -1497,8 +1704,16 @@ main .parrafo {
   .fotocopaspsg .h3psg {
     display: none;
   }
+  .fotocopaspsg .divFlexPsg {
+    display: flex;
+    margin: 15px;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
+  .sectionindex {
+    position: relative;
+    left: 25px;
+  }
   .agasajando {
     margin: auto;
     display: grid;
@@ -1548,6 +1763,10 @@ main .parrafo {
   }
 }
 @media (min-width: 1201px) and (max-width: 1400px) {
+  .sectionindex {
+    position: relative;
+    left: 25px;
+  }
   .agasajando .messiarg {
     margin: auto;
     display: grid;
@@ -1564,10 +1783,14 @@ main .parrafo {
   }
   .fotocopasnob .messinob {
     position: relative;
-    margin: auto;
+    margin: 15px;
     height: 90px !important;
     width: 80px !important;
     left: 15%;
+  }
+  .fotocopasnob .divFlexNob {
+    display: flex;
+    margin: 15px;
   }
   .fotocopaspsg {
     margin: auto;
@@ -1584,6 +1807,10 @@ main .parrafo {
   }
 }
 @media (min-width: 1401px) and (max-width: 1919px) {
+  .sectionindex {
+    position: relative;
+    left: 25px;
+  }
   .agasajando .messiarg {
     margin: auto;
     display: grid;
@@ -1615,6 +1842,10 @@ main .parrafo {
   }
 }
 @media (min-width: 1920px) {
+  .sectionindex {
+    position: relative;
+    left: 25px;
+  }
   .fotocopasnob {
     margin: auto;
     display: grid;

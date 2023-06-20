@@ -48,8 +48,8 @@ body{
     display: grid;
     grid-template-columns: 38% 10% 52%;
     grid-template-rows:12% 44% 44%;
-    grid-template-areas:"titulofcb fotocopasfcb escudo"
-                        "recordsfcb fotocopasfcb escudo"
+    grid-template-areas:"titulofcb fotocopasfcb escudofcb"
+                        "recordsfcb fotocopasfcb escudofcb"
                         "videofcb fotocopasfcb 0";
 }
 .psg{

@@ -2,11 +2,16 @@ main{
     grid-area: main;
     margin-left: 15px;
     .h2{
+        text-transform: capitalize;
         font-style: oblique;
         color: aliceblue;
         padding: 20px;
     }
     .parrafo{
+        padding: 10px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 20px 7px rgb(16, 109, 231);
         font-size: 82%;
         text-align: left;
         color: aliceblue;
@@ -19,13 +24,22 @@ main{
 .argentina{
     main ul{
         color: white;
+        list-style: none;
    }
    .recordsarg{
         color: white;
         grid-area: recordsarg;
     }
     .textoarg{
+        padding: 10px;
+        background-color: black;
         font-size: 15px;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 20px 7px rgb(0, 174, 255);
+    }
+    .h2{
+        text-transform: capitalize;
+        text-shadow: 20px 20px 4px black, 20px 17px 20px rgb(0, 106, 206);
     }
 }
 .barcelona{ 
@@ -34,12 +48,14 @@ main{
         color: white;
     }
     .textofcb{   
+        padding: 10px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: inset 5px 5px 20px 7px red;
     }
-    #gradientetitulo{
-        width: 400px;
-        height: 400px;
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,0.8939950980392157) 0%, rgba(9,9,121,0.8127626050420168) 35%, rgba(255,0,44,0.5886729691876751) 100%);
+    .h2{
+        text-transform: capitalize;
+        text-shadow: 20px 20px 4px black, 20px 17px 20px rgb(235, 231, 25);
     }
 }
 .newells{
@@ -47,7 +63,15 @@ main{
         grid-area: recordsnob;
     }
     .textonob{
+        padding: 10px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 20px 7px red;
         color: white;
+    }
+    .h2{
+        text-transform: capitalize;
+        text-shadow: 20px 20px 4px black, 20px 17px 20px red;
     }
 }
 .psg{
@@ -56,7 +80,15 @@ main{
         color: white;
     }
     .textopsg{
+        padding: 10px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: inset 0px 0px 20px 7px rgb(0, 81, 255);
         font-size: 19px;
+    }
+    .h2{
+        text-transform: capitalize;
+        text-shadow: 20px 20px 4px black, 20px 17px 20px rgb(0, 81, 255);
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -171,6 +203,9 @@ main{
         overflow: scroll;
         height: 375px;
     } 
+    .h2{
+        font-size: 22px;
+    }
 } 
 }
 @media (min-width: 597px) and (max-width: 768px){
@@ -275,6 +310,7 @@ main{
     }
 }
 .recordsnob{
+    font-size: 20px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -313,7 +349,10 @@ main{
     }
 }
 .recordsfcb{
-    
+    .textofcb{
+        overflow: scroll;
+        height: 150%;
+    }
 }
 .recordsnob{
     
@@ -336,7 +375,10 @@ main{
     
 }
 .recordsfcb{
-    
+    .textofcb{
+        overflow: scroll;
+        height: 150%;
+    }
 }
 .recordsnob{
     

@@ -98,6 +98,10 @@ margin: auto;
         height: 60px !important;
         width: 50px !important;
     }
+    .divFlexArg{
+        display: flex;
+        margin: 15px;
+    }
 }
 .fotocopasfcb{
     margin: auto;
@@ -109,6 +113,10 @@ margin: auto;
     .messifcb{
         height: 60px;
         width: 50px;
+    }
+    .divFlexFcb{
+        display: flex;
+        margin: 15px;
     }
 }
 
@@ -123,6 +131,10 @@ margin: auto;
         height: 60px ;
         width: 50px ;
     }
+    .divFlexNob{
+        display: flex;
+        margin: 15px;
+    }
 }
 .fotocopaspsg{
     margin: auto;
@@ -133,7 +145,11 @@ margin: auto;
     }
     .messipsg{
         height: 60px ;
-        width: 50px ;
+        width: 60px ;
+    }
+    .divFlexPsg{
+        display: flex;
+        margin: 15px;
     }
 }
 }
@@ -160,6 +176,10 @@ margin: auto;
         height: 70px;
         width: 65px;
     }
+    .divFlexArg{
+        display: flex;
+        margin: 15px;
+    }
 }
 .fotocopasfcb{
     margin: auto;
@@ -172,6 +192,10 @@ margin: auto;
         height: 70px;
         width: 65px;
     }
+    .divFlexFcb{
+        display: flex;
+        margin: 15px;
+    }
 }
 .fotocopasnob{
     margin: auto;
@@ -181,8 +205,12 @@ margin: auto;
         display: none;
     }
     .messinob{
-        height: 90px ;
+        height: 80px ;
         width: 80px ;
+    }
+    .divFlexNob{
+        display: flex;
+        margin: 10px;
     }
 }
 .fotocopaspsg{
@@ -193,8 +221,12 @@ margin: auto;
         display: none;
     }
     .messipsg{
-        height: 90px ;
+        height: 80px ;
         width: 80px ;
+    }
+    .divFlexPsg{
+        display: flex;
+        margin: 10px;
     }
 }
 }
@@ -217,11 +249,15 @@ margin: auto;
     display: grid;
     justify-content: center;
     img, .messiarg{
-        height: 100px;
-        width: 100px !important;
+        height: 90px;
+        width: 90px !important;
     }
     h3{
         display: none;
+    }
+    .divFlexArg{
+        display: flex;
+        margin: 15px;
     }
 }
 .fotocopasfcb{
@@ -232,11 +268,15 @@ margin: auto;
     display: grid;
     justify-content: center;
     img, .messifcb{
-        height: 100px;
-        width: 100px !important;
+        height: 90px;
+        width: 90px !important;
     }
     h3{
         display: none;
+    }
+    .divFlexFcb{
+        display: flex;
+        margin: 15px;
     }
 }
 .fotocopasnob{
@@ -251,18 +291,26 @@ margin: auto;
     h3{
         display: none;
     }
+    .divFlexNob{
+        display: flex;
+        margin: 15px;
+    }
 }
 .fotocopaspsg{
     margin: auto;
     display: grid;
     justify-content: center;
     .messipsg{
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 95px;
     }
     h3{
         display: none;
     }   
+    .divFlexPsg{
+        display: flex;
+        margin: 10px;
+    }
 }
 }
 @media (min-width: 769px) and (max-width: 1024px){
@@ -292,6 +340,10 @@ margin: auto;
     .h3arg{
         display: none;
     }
+    .divFlexArg{
+        display: flex;
+        margin: 15px;
+    }
 }
 .fotocopasfcb{
     margin: auto;
@@ -303,6 +355,10 @@ margin: auto;
     }
     .h3fcb{
         display: none;
+    }
+    .divFlexFcb{
+        display: flex;
+        margin: 15px;
     }
 }
 .fotocopasnob{
@@ -316,6 +372,10 @@ margin: auto;
     .h3nob{
         display: none;
     }
+    .divFlexNob{
+        display: flex;
+        margin: 15px;
+    }
 }
 .fotocopaspsg{
     margin: auto;
@@ -328,11 +388,16 @@ margin: auto;
     .h3psg{
         display: none;
     }
+    .divFlexPsg{
+        display: flex;
+        margin: 15px;
+    }
 }
 }
 @media (min-width: 1025px) and (max-width: 1200px){
 .sectionindex{
-
+    position: relative;
+    left: 25px;
 }
 .agasajando{
     margin: auto;
@@ -386,7 +451,8 @@ margin: auto;
 }
 @media (min-width: 1201px) and (max-width:1400px){
 .sectionindex{
-
+    position: relative;
+    left: 25px;
 }
 .agasajando{
     .messiarg{
@@ -407,10 +473,14 @@ margin: auto;
     justify-content: center;
     .messinob{
         position: relative;
-        margin: auto;
+        margin: 15px;
         height: 90px !important;
         width: 80px !important;
         left: 15%;;
+    }
+    .divFlexNob{
+        display: flex;
+        margin: 15px;
     }
 }
 .fotocopaspsg{
@@ -429,7 +499,8 @@ margin: auto;
 }
 @media (min-width: 1401px) and (max-width: 1919px){
 .sectionindex{
-
+    position: relative;
+    left: 25px;
 }
 .agasajando{
     .messiarg{
@@ -466,6 +537,10 @@ margin: auto;
 }
 }
 @media (min-width: 1920px){
+    .sectionindex{
+        position: relative;
+    left: 25px;
+    }
     .fotocopasnob{
     margin: auto;
     display: grid;

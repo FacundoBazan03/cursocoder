@@ -1,6 +1,8 @@
 header{
     grid-area: header;
     .h1{
+        text-transform: capitalize;
+        text-shadow: 20px 20px 4px black, 20px 17px 20px lightblue;
         color: aliceblue;
         padding: 15px;
         font-style: oblique;
@@ -9,8 +11,10 @@ header{
 }
 .argentina{ 
     .tituloarg{
+        text-transform: capitalize;
         grid-area: tituloarg;
         color: white;
+        animation:scale-up-bottom 0.4s; } @keyframes scale-up-bottom{0%{transform:scale(.5);transform-origin:center bottom}100%{transform:scale(1);transform-origin:center bottom}
     }
     #gradientetituloarg{
         top: 20px;
@@ -25,9 +29,11 @@ header{
 }
 .barcelona{ 
     .titulofcb{
+        text-transform: capitalize;
         grid-area: titulofcb;
         color: white;
         margin: auto;
+        animation:scale-up-bottom 0.4s; } @keyframes scale-up-bottom{0%{transform:scale(.5);transform-origin:center bottom}100%{transform:scale(1);transform-origin:center bottom}
     }
     #gradientetitulofcb{
         border-style: double;
@@ -40,8 +46,10 @@ header{
 }
 .newells{ 
     .titulonob{
+        text-transform: capitalize;
         grid-area: titulonob;
         margin: auto;
+        animation:scale-up-bottom 0.4s; } @keyframes scale-up-bottom{0%{transform:scale(.5);transform-origin:center bottom}100%{transform:scale(1);transform-origin:center bottom}
     }
     #gradientetitulonob{
         border-style: double;
@@ -54,10 +62,12 @@ header{
 }
 .psg{
     .titulopsg{
+        text-transform: capitalize;
         grid-area: titulopsg;
         color: white;
         margin: auto;
         background: linear-gradient(to bottom, #020024 #090979 #ff002c);
+        animation:scale-up-bottom 0.4s; } @keyframes scale-up-bottom{0%{transform:scale(.5);transform-origin:center bottom}100%{transform:scale(1);transform-origin:center bottom}
     }
     #gradientetitulopsg{
         border-style: double;
@@ -163,7 +173,7 @@ header{
         
 }
 .h1fcb{
-    font-size: 31px;
+    font-size: 30px;
 }
 .h1arg{
     font-size: 29px;
