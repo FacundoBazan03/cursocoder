@@ -40,7 +40,7 @@ body{
 }
 .barcelona{
     font-family: "exi";
-    background-image:url(../assets/img/fondoDesktopMobile/messifondofcb.jpg); 
+    background-image:url(../assets/img/fondoDesktopMobile/fondoleobarcelona.webp); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh ;
@@ -282,6 +282,7 @@ body{
         "videopsg videopsg videopsg videopsg"; 
     }
     .barcelona{
+        background-size: 110%;
         background-image: url(../assets/img/fondoDesktopMobile/messifondomobilefcb.jpg);
         height: 100vh;
         grid-template-columns:25% 25% 25% 25%;
@@ -355,6 +356,7 @@ body{
             "0 agasajando video";
 }
 .barcelona{
+    background-size: initial;
     background-image: url(../assets/img/fondoDesktopMobile/messifondofcb2.jpg);
     height: 100vh;
     grid-template-columns: 38% 10% 52%;

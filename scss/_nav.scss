@@ -158,7 +158,8 @@
 }
 .videofcb{
     iframe{
-        margin-top: 40px;
+        position: relative;
+        top: 18px;
         height: 235px;
         width: 480px;
     }
@@ -231,4 +232,14 @@
     top: 25px;
     position: relative;
     }
+    .videofcb{
+        
+        iframe{
+        width: 500px;
+        height: 245px;
+        position: relative;
+        top: 75px;
+        }
+    }
 }
+

@@ -39,7 +39,7 @@ body {
 }
 .barcelona {
   font-family: "exi";
-  background-image: url(../assets/img/fondoDesktopMobile/messifondofcb.jpg);
+  background-image: url(../assets/img/fondoDesktopMobile/fondoleobarcelona.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -216,6 +216,7 @@ body {
     grid-template-areas: "titulopsg titulopsg titulopsg titulopsg" "fotocopaspsg fotocopaspsg fotocopaspsg fotocopaspsg" "recordspsg recordspsg recordspsg recordspsg" "videopsg videopsg videopsg videopsg";
   }
   .barcelona {
+    background-size: 110%;
     background-image: url(../assets/img/fondoDesktopMobile/messifondomobilefcb.jpg);
     height: 100vh;
     grid-template-columns: 25% 25% 25% 25%;
@@ -271,6 +272,7 @@ body {
     grid-template-areas: "tituloarg agasajando trivia" "recordsarg agasajando trivia" "0 agasajando video";
   }
   .barcelona {
+    background-size: initial;
     background-image: url(../assets/img/fondoDesktopMobile/messifondofcb2.jpg);
     height: 100vh;
     grid-template-columns: 38% 10% 52%;
@@ -1292,7 +1294,8 @@ main .parrafo {
     width: 480px;
   }
   .videofcb iframe {
-    margin-top: 40px;
+    position: relative;
+    top: 18px;
     height: 235px;
     width: 480px;
   }
@@ -1311,6 +1314,12 @@ main .parrafo {
   .video {
     top: 25px;
     position: relative;
+  }
+  .videofcb iframe {
+    width: 500px;
+    height: 245px;
+    position: relative;
+    top: 75px;
   }
 }
 .sectionindex {
