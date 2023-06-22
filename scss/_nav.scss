@@ -8,12 +8,22 @@
         grid-area: video;
         margin: auto;
     }
+    iframe{
+        -webkit-border-radius: 12px;
+        -webkit-box-shadow: 4px 4px 16px 14px #000;
+        transform: rotate(0deg);
+    }
 }
 .newells{
     .videonob{
         margin: auto;
         margin-bottom: 24px;
         grid-area: videonob;
+    }
+    iframe{
+        -webkit-border-radius: 12px;
+        -webkit-box-shadow: 4px 4px 16px 14px #000;
+        transform: rotate(0deg);
     }
 }
 .psg{
@@ -22,11 +32,21 @@
         margin-bottom: 24px;
         grid-area: videopsg;
     }
+    iframe{
+        -webkit-border-radius: 12px;
+        -webkit-box-shadow: 4px 4px 16px 14px #000;
+        transform: rotate(0deg);
+    }
 }
 .barcelona{
     .videofcb{
         margin: auto;
         grid-area: videofcb;
+    }
+    iframe{
+        -webkit-border-radius: 12px;
+        -webkit-box-shadow: 4px 4px 16px 14px #000;
+        transform: rotate(0deg);
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
