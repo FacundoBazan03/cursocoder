@@ -1,43 +1,41 @@
 .footerindex{
-    position: relative;
+    margin: auto;
     grid-area: footer;
-    & .row{
-        display: flex;
-        justify-content: center;
-    }
-    & h4{
-        display: flex;
-        justify-content: center;
-        background-color: black;
-    }
-    & ul{
-        font-size: 13px;
-        width: 100%;
-        list-style-type: none;
-        text-align: center;
-    }
-    & li{
-        display: inline-flex;
-    }
-    & a{
-        margin: -10px 0px;
-        display: inline-flex;
-        text-decoration: none;
-        color: aliceblue;
-        padding: 14px 35px;
-        position: relative;
-        top: 2px;
-    }
-    & img{
-        position: relative;
-        width: 25px;
-        height: 25px;
-        border: 2px double lightblue;
-        left: -5px;
-    }
-    & a:hover{
-        background-color: lightblue;
-    }
+    button{
+    --bg: #000;
+    --hover-bg: #ffffff;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+  .facebook{
+    background: rgb(37,103,232);
+    background: radial-gradient(circle, rgba(37,103,232,1) 0%, rgba(4,127,213,1) 100%);
+  }
+  .twitter{
+    background: rgb(63,193,251);
+    background: radial-gradient(circle, rgba(63,193,251,1) 0%, rgba(23,126,172,1) 100%);
+  }
+  .instagram{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  }
 }
 .argentina{ 
     .container footer{
@@ -69,26 +67,14 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
 .footerindex{
-text-align: center;
-bottom: 20px;
-position: relative;
-width: 96%;
-margin-left: auto;
-margin-right: auto;
-
-    h4{
-        font-size: 17px;
-    }
-    .redes{
-        font-size: 9px;
-    }
-    a{
-        padding: 9px 7px;
-        margin: -2px;
-        position: relative;
-        left: -12px;
-        top: -6px;
-        font-size: 7px;
+    bottom: 20px;
+    margin: auto;
+    right: 15px;
+    position: relative;
+    font-size: 9px;
+    button{
+        padding: 10px;
+        margin: 2px;
     }
 }
 .escudofcb{
@@ -106,9 +92,8 @@ margin-right: auto;
 }
 @media (min-width:481px) and (max-width: 596px){
 .footerindex{
-    a{
-        padding: 6px 11px;
-    }
+    font-size: 14px;
+    margin: auto;
 }
 .escudofcb{
         display: none;
@@ -125,13 +110,7 @@ margin-right: auto;
 }
 @media (min-width: 597px) and (max-width: 768px){
 .footerindex{
-    a{
-        margin: 0px -7px;
-    }
-    .row{
-        position: relative;
-        top: 10px;
-    }
+    margin: auto;
 }
 .escudofcb{
     position: relative;
@@ -157,13 +136,18 @@ margin-right: auto;
 }
 @media (min-width: 769px) and (max-width: 1024px){
 .footerindex{
-    margin-top: auto;
-    a{
-        padding: 14px 11px;
+    right: 25%;
+    position: relative;
+    font-size: 20px;
+    margin: auto;
+    top: 30px;
+    button{
+        padding: 10px;
+        margin: 5px;
     }
-    ul{ 
+    .redes{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
     }
 }
 .escudofcb{
@@ -197,15 +181,12 @@ margin-right: auto;
 }
 @media (min-width: 1025px) and (max-width: 1200px){
 .footerindex{
-    bottom: 90px;
-    h4{
-        font-size: 19px;
-    }
-    ul{
-        display: table-row-group;
-    }
-    a{
-        margin: -10px 45px
+    margin: auto;
+    font-size: 13px;
+    position: relative;
+    bottom: 20px;
+    button{
+        padding: 20px;
     }
 }
 .escudofcb{
@@ -223,15 +204,12 @@ margin-right: auto;
 }
 @media (min-width: 1201px) and (max-width:1400px){
 .footerindex{
-    bottom: 90px;
-    h4{
-        font-size: 19px;
-    }
-    ul{
-        display: table-row-group;
-    }
-    a{
-        margin: -10px 45px
+    margin: auto;
+    font-size: 13px;
+    position: relative;
+    bottom: 20px;
+    button{
+        padding: 20px;
     }
 }
 .escudofcb{
@@ -249,8 +227,15 @@ margin-right: auto;
 }
 @media (min-width: 1401px) and (max-width: 1919px){
 .footerindex{
-    li{ 
-    margin: -5px -25px;
+    position: relative;
+    bottom: 20px;
+    margin: auto;
+    font-size: 14px;
+    button{
+        margin: 15px;
+        padding: 14px;
+        margin-left: 10px;
+        margin-right: 20px;
     }
 }
 .escudofcb{

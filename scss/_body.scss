@@ -296,6 +296,13 @@ body{
 @media (min-width: 1025px) and (max-width: 1200px){
     .index{
         background-image: url(../assets/img/fondoDesktopMobile/leobyw2.jpg);
+        display: grid;
+        grid-template-columns: 42% 33% 25%;
+        grid-template-rows: 13% 79% 8%;
+        grid-template-areas:
+            "header nav 0 "
+            "main section 0"
+            "footer aside aside";
     }        
     .argentina {
             font-family: "exi";

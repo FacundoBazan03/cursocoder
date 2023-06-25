@@ -1,8 +1,8 @@
 aside{
     grid-area: aside;
     position: relative;
-    bottom: -58px;
-    left: 50%;
+    bottom: -30px;
+    left: 100%;
 }
 @media (min-width: 320px) and (max-width: 480px) {
 aside{
@@ -29,14 +29,14 @@ aside{
 @media (min-width: 1025px) and (max-width: 1200px){
 aside{
     position: relative;
-    top: 40px;
+    top: 30px;
 }  
     
 }
 @media (min-width: 1201px) and (max-width:1400px){
 aside{
     position: relative;
-    top: 40px;
+    top: 30px;
 }  
 }
 @media (min-width: 1401px) and (max-width: 1919px){
